@@ -136,3 +136,86 @@ nav ul li a:visited:hover {
         box-shadow: none;
     }    
 }
+
+/*ABOUT US CSS*/
+
+.Pipe1{
+  font-family: 'Architects Daughter';
+  font-size: 20px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  color: white;
+}
+.pipe2{
+  font-family: 'didot';
+  font-size: 20px;
+  position: absolute;
+  top: 250px;
+  left: 100px;
+  color: white;
+}
+
+.Pipe2 a{
+  font-family: 'Anurati';
+  color: white;
+  font-size: 20px;
+}
+
+.Pipe2 b{
+  font-family: 'didot';
+  color: white;
+}
+.Pipe2 c{
+  font-family: impact;
+  color: white;
+  font-weight: normal;
+}
+.Pipe3 img{
+  position: absolute;
+  top: 220px;
+  left: 100px;
+  width: 120px;
+  height: 100px;
+}
+.Pipe4 {
+  position: absolute;
+  left: 230px;
+  top: 200px;
+}
+.Pipe4 h2{
+  font-size: 20px;
+  font-family: 'Anurati';
+}
+.Pipe4 a{
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.Pipe5{
+  position: absolute;
+  left: 230px;
+  top: 230px;
+  max-width: 1000px;
+}
+.Pipe5 h1{
+  font-size: 12px;
+}
+.Pipe5 p{
+  font-size: 12px;
+}
+.Pipe5 a{
+  top: 220px;
+  line-height: 1px;
+}
+.Pipe6{
+  position: absolute;
+  left: 350px;
+  top: 280px;
+}
+.Pipe6 p{
+  font-size: 12px;
+  line-height: 1px;
+}
+.MainPipe{
+  color: white;
+}
