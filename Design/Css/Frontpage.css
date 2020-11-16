@@ -95,6 +95,9 @@ nav ul li a:visited:hover {
   font-size: 30px;
   font-family: 'Architects Daughter';
   color: #fff;
+  top: 0px;
+  margin-left: 80px;
+  margin-right: auto;
   padding: 20px 40px;
   border: 0.2rem solid #fff;
   border-radius: 2rem; 
