@@ -171,9 +171,8 @@ nav ul li ul li a {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font: ;
   margin-top: 50px;
-  margin-right: 85%;
+  margin-right: 90%;
 }
 .Fbpipe{
   float: right;
@@ -237,4 +236,15 @@ div.PipeMAINCon img{
 }
 .PipeMAINCon:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Aboutush1 {
+  font-size: 34px;
+}
+.ECLIPSE {
+  float: left;
+  margin: 20px;
+  width: auto;
+}
+.coop {
+  color: white;
 }
