@@ -229,12 +229,20 @@ section::after {
   top: 0px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
 }
 div.PipeMAINCon img{
-  height: auto;
-  width: 100%;
+  width: auto;
   max-width: 400px;
 }
 .PipeMAINCon:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.Footer{
+padding: 100px;
+left: 0;
+bottom: 0;
+width: 100%;
+display: block;
+text-align: center;
 }
