@@ -1,7 +1,7 @@
-body {
+body, html {
   background-color: #121212;
-  padding: 20px;
-  max-height: 6000px;
+  padding: -100px;
+  max-height: 12958091275px;
 }
 .navigation {
   height: 70px;
@@ -178,9 +178,7 @@ nav ul li ul li a {
 .Fbpipe{
   float: right;
 }
-.Articlepipe {
- position: relative;
- width: 100%
+.#Articlepipe {
  height: 100%;
 }
 .titlepipe{
@@ -238,17 +236,25 @@ div.PipeMAINCon img{
 .PipeMAINCon:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.Footer{
+#Footer{
 padding: 10px;
+position: fixed;
 left: 0;
 bottom: 0;
 width: 100%;
 position: absolute;
 background-color: #262626;
+opacity: 100%;
 text-align: center;
 font-size: 8px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.Footer:Hover {
-  position: 
+.Article {
+  margin: 0px;
+}
+section {
+  margin-top: 0px;
+}
+.Margin {
+  margin-top: 10px;
 }
