@@ -171,9 +171,7 @@ nav ul li ul li a {
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  font: ;
-  margin-top: 50px;
-  margin-right: 85%;
+
 }
 .Fbpipe{
   float: right;
@@ -209,22 +207,14 @@ section::after {
     padding: 0;
   }
 }
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 60px;
-}
-.fuckthis {
-  margin-top: 600px;
-  padding-top: 100px;
-}
+
+
 .PipeMAINCon{
   margin:50px;
   float: left;
   width: auto;
   position: relative;
   left: 20%;
-  top: 0px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
@@ -249,12 +239,17 @@ text-align: center;
 font-size: 8px;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.Article {
-  margin: 0px;
+.padding {
+  padding: 50px;
+  position: relative;
+  text-align: center];
+  background-color: #262626;
+  margin-top: 100px;
+  color: white;
+  outline: 3px solid black;
+  outline-color: black;
+  font-size: 20px;
 }
-section {
-  margin-top: 0px;
-}
-.Margin {
-  margin-top: 10px;
+.text {
+  text-align: center;
 }
