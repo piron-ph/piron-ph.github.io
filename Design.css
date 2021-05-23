@@ -1,3 +1,5 @@
+/*MAIN
+Designed By: Ligolas Neo Malicdem*/
 body, html {
   background-color: #121212;
   padding: -100px;
@@ -8,6 +10,9 @@ body, html {
 h1, h2, h3, h4, h5, p {
   color: white;
 }
+/* BODY */
+ 
+/* Blah */    
 .Logo {
   font-family: Anurati;
   font-weight: bold;
@@ -36,6 +41,10 @@ h1, h2, h3, h4, h5, p {
 .brand a:visited {
   color: #ffffff;
   text-decoration: none;
+}
+.brand a:Hover {
+  color: red;
+  transition: 0.5s ease;
 }
 
 .nav-container {
@@ -68,6 +77,7 @@ nav ul li a:hover,
 nav ul li a:visited:hover {
   background: #822630;
   color: #262626;
+  transition: 0.5s ease-in-out;
 }
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
@@ -98,9 +108,7 @@ nav ul li ul li a {
   background: #262626;
   height: 70px;
   width: 70px;
-}
-
-@media only screen and (max-width: 600px) {
+}l@media only screen and (max-width: 600px) {
   .nav-mobile {
     display: block;
   }
@@ -207,6 +215,9 @@ div.PipeMAINCon img{
 .PipeMAINCon:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.text {
+  text-align: center;
+}
 #Footer{
   padding: 10px;
   width: 100%;
@@ -218,9 +229,6 @@ div.PipeMAINCon img{
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
-}
-.text {
-  text-align: center;
 }
 .maintenance {
   display: block;
@@ -438,4 +446,9 @@ div.PipeMAINCon img{
   }
   100% {
     opacity:0;
+}
+/* Footer */
+
+.Pol{
+
 }
