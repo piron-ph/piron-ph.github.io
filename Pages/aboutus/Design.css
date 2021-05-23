@@ -42,9 +42,14 @@ h1, h2, h3, h4, h5, p {
   color: #ffffff;
   text-decoration: none;
 }
-.brand a:Hover {
-  color: red;
-  transition: 0.5s ease;
+a {
+  animation: color-change 1s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  50% { color: blue; }
+  100% { color: red; }
 }
 
 .nav-container {
