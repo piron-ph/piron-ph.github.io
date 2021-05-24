@@ -1,15 +1,16 @@
 /*MAIN
 Designed By: Ligolas Neo Malicdem*/
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
 body, html {
   background-color: #121212;
   padding: -100px;
   max-height: 12958091275px;
   margin-bottom: 0px;
 }
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 
 h1, h2, h3, h4, h5, p {
   color: white;
@@ -53,7 +54,7 @@ h1{
 }
 
 @keyframes color-change {
-  0% { color: white; }
+  0% { color: yellow; }
   40% { color: #00FFE4; }
   80% { color: red; }
   120% { color: red; }
@@ -726,11 +727,10 @@ nav ul li ul li a {
   margin: 0;
   position: absolute;
   left: 50%;
-  top: 1000px;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   font: ;
-  margin-top: 600px;
+  margin-top: 500px;
 }
 .centertitle {
   position: relative;
@@ -740,7 +740,12 @@ nav ul li ul li a {
   transform: translate(-50%, -50%);
 
 }
-
+.AboutUS0 {
+  margin-top: 100px;
+}
+.ab1 {
+  font-size: 30px;
+}
 
 .PipeMAINCon{
   margin:50px;
@@ -762,8 +767,9 @@ div.PipeMAINCon img{
 .text {
   text-align: center;
 }
+
 #Footer{
-  padding: 10px;
+  padding: 90px;
   width: 100%;
   text-align: center;
   font-size: 10px;
@@ -785,12 +791,66 @@ div.PipeMAINCon img{
   overflow: auto;
   background-color: #262626 0.3;
 }
+.h1Title {
+  font-family: 'Almarai', sans-serif;
+  font-size: 60px;
+  margin-top: 40px;
+}
+.LogoCont {
+  text-align: center;
+}
+.LogoC {
+  position: relative;
+  width: 50%;
+  margin-top: 40px;
+}
 
+.LogoIMG {
+  opacity: 1;
+  display: block;
+  width: 300;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.LogoCent {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.LogoC:hover .LogoIMG {
+  opacity: 0.3;
+}
+
+.LogoC:hover .LogoCent {
+  opacity: 1;
+}
+
+.LogoText {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
 .maintenancePipe{
   background-color: #262626;
   margin: 15%;
   padding: 20px;
   max-width: 80%;
+}
+.margin10 {
+  margin-top: 6000px;
+}
+.padding1 {
+  padding: 300px;
+  width: 100%;
 }
 .cL {
   color: red;
