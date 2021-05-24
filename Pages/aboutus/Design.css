@@ -767,7 +767,32 @@ div.PipeMAINCon img{
 .text {
   text-align: center;
 }
-
+.padding2 {
+  padding: 300px;
+  width: 100%;
+}
+.padding1 {
+  font-family: almarai;
+  color: #ff0000;
+  font-size: 30px;
+  text-shadow: 0 0 3px #F40A35;
+}
+.padding1 {
+  animation: neon 1s ease infinite;
+  -moz-animation: neon 1s ease infinite;
+  -webkit-animation: neon 1s ease infinite;
+}
+@keyframes neon {
+  0%,
+  100% {
+    text-shadow: 0 0 1px #FA1C16, 0 0 3px #FA1C16, 0 0 10px #FA1C16, 0 0 10px #FA1C16, 0 0 .4px #FED128, .5px .5px .1px #806914;
+    color: #FED128;
+  }
+  50% {
+    text-shadow: 0 0 .5px #800E0B, 0 0 1.5px #800E0B, 0 0 5px #800E0B, 0 0 5px #800E0B, 0 0 .2px #800E0B, .5px .5px .1px #40340A;
+    color: #806914;
+  }
+}
 #Footer{
   padding: 90px;
   width: 100%;
@@ -847,10 +872,6 @@ div.PipeMAINCon img{
 }
 .margin10 {
   margin-top: 6000px;
-}
-.padding1 {
-  padding: 300px;
-  width: 100%;
 }
 .cL {
   color: red;
