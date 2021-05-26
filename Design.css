@@ -3,7 +3,6 @@ Designed By: Ligolas Neo Malicdem*/
 body, html {
   background-color: #121212;
   padding: -100px;
-  max-height: 12958091275px;
   margin-bottom: 0px;
 }
 * {
@@ -14,7 +13,17 @@ h1, h2, h3, h4, h5, p {
   color: white;
 }
 /* BODY */
- 
+.B22P {
+  height: 70px;
+  overflow: hidden;
+  font-family: Anurati;
+}
+.B22P .B23P {
+  transition: transform 1000ms;
+}
+.B22P:hover img, .B22P:hover .B23P {
+  transform: translateY(-85px);
+}
 /* Blah */    
 .Logo {
   font-family: Anurati;
