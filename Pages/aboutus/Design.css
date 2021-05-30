@@ -460,7 +460,7 @@ nav ul li ul li a {
             box-shadow: 0 0 17px 3px #ffff01,0 0 4px 2px #ffff01;
   }
   80% {
-    -webkit-box-shadow: 0 0 17px 3px #ff1100,0 0 4px 2px   0% {
+    -webkit-box-shadow: 0 0 17px 3px #ff1100,0 0 4px 2px   0% 
     -webkit-box-shadow: 0 0 17px 3px #00FFE4,0 0 4px 2px #00FFE4;
             box-shadow: 0 0 17px 3px #00FFE4,0 0 4px 2px #00FFE4;
   }
@@ -822,14 +822,23 @@ div.PipeMAINCon img{
   margin-top: 40px;
 }
 .LogoCont {
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
 }
 .LogoC {
   position: relative;
   width: 50%;
   margin-top: 40px;
 }
-
+.LogoBord {
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 10px;
+}
 .LogoIMG {
   opacity: 1;
   display: block;

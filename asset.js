@@ -2,7 +2,6 @@
 
 //Maintenance
 var maintenance = document.getElementById("maintenanceNotice");
-
 var btn = document.getElementById("BtnPnl");
 
 var span = document.getElementsByClassName("cL")[0];

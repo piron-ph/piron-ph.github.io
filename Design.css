@@ -4,11 +4,14 @@ body, html {
   background-color: #121212;
   padding: -100px;
   margin-bottom: 0px;
+
 }
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
 h1, h2, h3, h4, h5, p {
   color: white;
 }
@@ -202,6 +205,7 @@ nav ul li ul li a {
   content: "";
   transition: all 300ms ease-in-out;
 }
+
 #nav-toggle span:before {
   top: -10px;
 }
@@ -243,16 +247,16 @@ nav ul li ul li a {
 .PipeMAINCon{
   margin:50px;
   float: left;
-  width: auto;
   position: relative;
-  left: 20%;
+  left: 17%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
 }
-div.PipeMAINCon img{
-  width: auto;
-  max-width: 400px;
+.PipeMAINCon img{
+  height: auto;
+  width: 100%;
+  max-width: 250px;
 }
 .PipeMAINCon:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -262,16 +266,20 @@ div.PipeMAINCon img{
   text-align: center;
 }
 #Footer{
-  padding: 90px;
+  padding: 10px;
   width: 100%;
   text-align: center;
   font-size: 10px;
   position: fixed;
-  height: 50px;
+  height: 90px;
   bottom: 0px;
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
+  background-color:#262626;
+}
+.pad12 {
+  margin-top: 1000px;
 }
 .maintenance {
   display: block;
@@ -283,6 +291,7 @@ div.PipeMAINCon img{
   height: 100%;
   overflow: auto;
   background-color: #262626 0.3;
+
 }
 
 .maintenancePipe{
@@ -291,6 +300,7 @@ div.PipeMAINCon img{
   padding: 20px;
   max-width: 80%;
 }
+
 .cL {
   color: red;
   float: right;
@@ -369,6 +379,7 @@ div.PipeMAINCon img{
   text-decoration: none;
   cursor: pointer;
 }
+
 .Btn {
   box-shadow:inset 0px 0px 18px 0px #ff0000;
   background-color:#000000;
@@ -385,11 +396,13 @@ div.PipeMAINCon img{
 }
 .Btn:hover {
   background-color:#cc4343;
+  transition: 0.5s ease;
 }
 .Btn:active {
   position:relative;
   top:1px;
 }
+
 .fade-in {
   animation: fadeIn ease 1s;
   -webkit-animation: fadeIn ease 1s;
