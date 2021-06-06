@@ -4,7 +4,6 @@ body, html {
   background-color: #121212;
   padding: -100px;
   margin-bottom: 0px;
-
 }
 
 * {
@@ -243,7 +242,10 @@ nav ul li ul li a {
 
 }
 
-
+#Articlepipe {
+    max-width: 1928px;
+    text-align: center;
+}
 .PipeMAINCon{
   margin:50px;
   float: left;
@@ -255,7 +257,7 @@ nav ul li ul li a {
 }
 .PipeMAINCon img{
   height: auto;
-  width: 100%;
+  width: 90%;
   max-width: 250px;
 }
 .PipeMAINCon:hover {
@@ -291,7 +293,6 @@ nav ul li ul li a {
   height: 100%;
   overflow: auto;
   background-color: #262626 0.3;
-
 }
 
 .maintenancePipe{
@@ -300,7 +301,7 @@ nav ul li ul li a {
   padding: 20px;
   max-width: 80%;
 }
-
+/* CLOSE */
 .cL {
   color: red;
   float: right;

@@ -1,4 +1,7 @@
-
+//LIGOLAS NEO MALCIDEM
+//2021-June 4
+//M.Y-17v
+//C-PIRON-GROUP
 
 //Maintenance
 var maintenance = document.getElementById("maintenanceNotice");
