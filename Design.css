@@ -306,11 +306,18 @@ p {
 }
 /*Medoas*/
 @media screen and (max-width: 720px){
+  #smallsc {
+    margin-top: 20px;
+  }
   #texto {
+   top: 5%;
+  }
+  #texto .single {
 
   }
   #timerdes {
     font-size: 50px;
+    top: 70%;
   }
   #timerdes .time {
     letter-spacing: 3px;
@@ -330,3 +337,116 @@ p {
     color: #FFA500;
   }
 }
+@media screen and (max-width: 920px){
+  #smallsc {
+    margin-top: 20px;
+  }
+  #texto {
+   top: 5%;
+  }
+
+  #timerdes {
+    font-size: 50px;
+    top: 70%;
+  }
+  #timerdes .time {
+    letter-spacing: 3px;
+    font-size: 80px;
+    padding: 5px 0;
+  }
+  #timerdes .date {
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  #timerdes .text {
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 20px 0 0;
+  }
+  #timerdes .singler {
+    color: #FFA500;
+  }
+}
+@media screen and (max-width: 1020px){
+  #texto {
+   top: 20%;
+  }
+
+  #timerdes {
+    font-size: 50px;
+    top: 55%;
+  }
+  #timerdes .time {
+    letter-spacing: 3px;
+    font-size: 80px;
+    padding: 5px 0;
+  }
+  #timerdes .date {
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  #timerdes .text {
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 20px 0 0;
+  }
+  #timerdes .singler {
+    color: #FFA500;
+  }
+}
+@media screen and (max-width: 1080px){
+  #texto {
+   top: 17%;
+  }
+
+  #timerdes {
+    font-size: 60px;
+    top: 55%;
+  }
+  #timerdes .time {
+    letter-spacing: 3px;
+    font-size: 80px;
+    padding: 5px 0;
+  }
+  #timerdes .date {
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  #timerdes .text {
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 20px 0 0;
+  }
+  #timerdes .singler {
+    color: #FFA500;
+  }
+}
+@media screen and (max-width: 2080px){
+  #texto {
+   top: 17%;
+  }
+
+  #timerdes {
+    font-size: 80px;
+    top: 55%;
+  }
+  #timerdes .time {
+    letter-spacing: 3px;
+    font-size: 80px;
+    padding: 5px 0;
+  }
+  #timerdes .date {
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  #timerdes .text {
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 20px 0 0;
+  }
+  #timerdes .singler {
+    color: #FFA500;
+  }
+}
+
+
