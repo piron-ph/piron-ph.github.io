@@ -1,0 +1,138 @@
+/*
+  Created By Ligolas Neo Malicdem
+  Made for APEC Schools Research Fair
+  Contributors: Keishia Mae Bulseco;
+*/
+
+html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #212121;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  height: 200px;
+  position: relative;
+}
+
+/* Background */
+.bg {
+	background-color: #212121;
+}
+
+/*Logo*/
+#logo {
+ text-align: center;
+ position: absolute;
+ left: 10%;
+ top: 10%;
+ transform: translate(-50%, -50%);
+}
+#navtext {
+ text-align: center;
+ position: absolute;
+ left: 50%;
+ top: 10%;
+ transform: translate(-50%, -50%); 
+}
+#navheader {
+ font-size: 90px;
+ text-shadow: 0 0 15px #0aafe6, 0 0 15px rgba(10, 175, 230, 0);
+ font-family: Times New Roman;
+ color: #ffffff;
+ letter-spacing: 5px;
+}
+#navheader .singler1 {
+ text-shadow: 0 0 15px #8e1cfd, 0 0 15px rgba(10, 175, 230, 0);
+ color: #8e1cfd;
+}
+#navheader .singler2 {
+ text-shadow: 0 0 15px #FAED27, 0 0 15px rgba(10, 175, 230, 0);
+ color: #FAED27;
+}
+/*Introduction*/
+#introduction {
+ text-align: center;
+ position: absolute;
+ left: 50%;
+ top: 20%;
+ transform: translate(-50%, -50%); 
+}
+#introduction .text {
+  font-size: 40px;
+  font-family: Consolas;
+  font-weight: normal;
+  color: #ffffff;
+}
+/*Mousepad*/
+#mousepad{
+
+}
+/*Anatomy*/
+#anatomy {
+
+}
+/*footer*/
+#footer {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 10px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	color: #ffffff;
+	font-family: Consolas;
+	font-size: 10px;
+	text-shadow: 0 0 10px #0aafe6, 0 0 10px rgba(10, 175, 230, 0);
+}
+#footer .singler {
+  color: #FFA500;
+}
+
+/*Neon designs*/
+.flick-slow{
+  animation: flick 3s linear infinite;
+}
+.flick-fast{
+  animation: flick 1s linear infinite;
+}
+@keyframes flick {
+  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+    //text-shadow: none;
+    opacity: .99;
+    
+  }
+  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+    opacity: 0.4;
+  }
+}

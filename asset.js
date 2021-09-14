@@ -20,3 +20,7 @@ var x = setInterval(function() {
     document.getElementById("timer").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+window.addEventListener("load", () => {
+ document.querySelector("body").classList.add("loaded"); 
+});
