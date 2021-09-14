@@ -92,6 +92,7 @@ p {
   color: #daf6ff;
   text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
   font-size: 100px;
+  text-transform: uppercase;
 }
 #timerdes .time {
   letter-spacing: 3px;
@@ -129,11 +130,11 @@ p {
 
 /*Animations*/
 .fadein {
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
+  animation: fadeIn 25s;
+  -webkit-animation: fadeIn 25s;
+  -moz-animation: fadeIn 25s;
+  -o-animation: fadeIn 25s;
+  -ms-animation: fadeIn 25s;
 }
 @keyframes fadeIn {
   0% {opacity:0;}
@@ -160,7 +161,7 @@ p {
   100% {opacity:1;}
 }
 .timerin {
-  animation: timerin 10s;
+  animation: timerin 20s;
   -webkit-animation: fadeIn 10s;
   -moz-animation: fadeIn 10s;
   -o-animation: fadeIn 10s;
@@ -189,4 +190,97 @@ p {
 @-ms-keyframes timerin {
   0% {opacity:0;}
   100% {opacity:1;}
+}
+.logoanim {
+  animation: leftright 5s;
+  animation-direction: normal;
+}
+@keyframes leftright {
+  0%   {left: 50%; top: -100%;}
+}
+
+
+#lettersanim {
+  animation: upanim 3s;
+  animation-direction: normal;
+}
+@keyframes upanim {
+  0%   {left: -50%; top: 50%;}
+}
+
+
+.lettersanim2 {
+  animation: upanim2 5s;
+  animation-direction: normal;
+}
+@keyframes upanim2 {
+  0%   {left: -50%; top: 50%;}
+}
+
+
+.lettersanim3 {
+  animation: upanim3 7s;
+  animation-direction: normal;
+}
+@keyframes upanim3 {
+  0%   {left: -50%; top: 50%;}
+}
+
+.comingsoon-rev {
+  color: #fff;
+  background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: rev 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+@-moz-keyframes rev {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@-webkit-keyframes rev {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@-o-keyframes rev {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@keyframes rev {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
 }
