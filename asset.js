@@ -1,24 +1,22 @@
 //LIGOLAS NEO MALCIDEM
-//2021-June 4
-//M.Y-17v
-//C-PIRON-GROUP
+var countDownDate = new Date("Oct 5, 2021 15:37:25").getTime();
 
-//Maintenance
-var maintenance = document.getElementById("maintenanceNotice");
-var btn = document.getElementById("BtnPnl");
+var x = setInterval(function() {
 
-var span = document.getElementsByClassName("cL")[0];
-
-btn.onclick = function() {
-  maintenance.style.display = "block";
-}
-
-span.onclick = function() {
-  maintenance.style.display = "none";
-}
-
-window.onclick = function(event) {
-  if (event.target == maintenance) {
-    maintenance.style.display = "none";
+  var now = new Date().getTime();
+    
+  var distance = countDownDate - now;
+    
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  document.getElementById("timer").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("timer").innerHTML = "EXPIRED";
   }
-}
+}, 1000);
