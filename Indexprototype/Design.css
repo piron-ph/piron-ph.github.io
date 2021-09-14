@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 html,
 body {
   height: 100%;
+  border: 2px solid #c808c8;
 }
 
 body {
@@ -134,28 +135,7 @@ p {
 #anatomy {
 
 }
-/*Btns*/
-.btnr {
-  background-color:transparent;
-  border-radius:5px;
-  border:2px solid #c808c8;
-  display:inline-block;
-  cursor:pointer;
-  color:#ffffff;
-  font-family:Arial;
-  font-size:17px;
-  font-weight:bold;
-  padding:12px 76px;
-  text-decoration:none;
-  text-shadow:0px 1px 0px #f500f5;
-}
-.btnr:hover {
-  background-color:transparent;
-}
-.btnr:active {
-  position:relative;
-  top:1px;
-}
+
 /*footer*/
 #footer {
 	position: absolute;
