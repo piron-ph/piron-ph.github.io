@@ -94,6 +94,38 @@ p {
   font-weight: normal;
   color: #ffffff;
 }
+#nav-cont {
+    
+  }
+
+  #nav-cont a, .subnavbtn {
+   -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+  }
+
+  .sub-home {
+    display: none;
+    position: absolute;
+    right: 0;
+    left: 0; 
+
+    z-index: 1;   
+    transform: perspective(-10px);
+  }
+
+  #nav-cont:hover .sub-home {
+    justify-content: center;
+    margin-top: 53px;
+  }
+}
+#nav-main {
+  position: sticky;
+  top: 0;
+  display:flex;
+  overflow:hidden;
+  justify-content: center;
+  height: 100px;
+}
 /*Mousepad*/
 #mousepad{
 
@@ -101,6 +133,28 @@ p {
 /*Anatomy*/
 #anatomy {
 
+}
+/*Btns*/
+.btnr {
+  background-color:transparent;
+  border-radius:5px;
+  border:2px solid #c808c8;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:17px;
+  font-weight:bold;
+  padding:12px 76px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #f500f5;
+}
+.btnr:hover {
+  background-color:transparent;
+}
+.btnr:active {
+  position:relative;
+  top:1px;
 }
 /*footer*/
 #footer {
