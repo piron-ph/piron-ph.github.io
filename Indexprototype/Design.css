@@ -35,8 +35,9 @@ body {
 
 body {
   background: rgba(18, 18, 18, 5.5);
-   box-shadow: inset 0 0 15px #FF0266, 0 0 15px rgba(10, 175, 230, 0);
+  box-shadow: inset 0 0 15px #FF0266, 0 0 15px rgba(10, 175, 230, 0);
 }
+
 .bodies{
   background: rgba(18, 18, 18, 1.5);
 }
@@ -68,7 +69,7 @@ p {
  text-align: center;
  position: absolute;
  left: 50%;
- top: 10%;
+ top: 50%;
  transform: translate(-50%, -50%); 
 }
 #navheader {
@@ -91,12 +92,13 @@ p {
  text-align: center;
  position: absolute;
  left: 50%;
- top: 20%;
+ top: 55%;
  transform: translate(-50%, -50%); 
+ margin-top: 100px;
 }
 #introduction .text {
-  font-size: 40px;
-  font-family: Consolas;
+  font-size: 15px;
+  font-family: Times New Roman;
   font-weight: normal;
   color: #ffffff;
 }
@@ -173,5 +175,15 @@ p {
   }
   20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
     opacity: 0.4;
+  }
+}
+.lightson{
+  animation: flick 10s ease;
+}
+@keyframes lightson {
+  0%,100% {
+    //text-shadow: none;
+    opacity: .99;
+    
   }
 }
