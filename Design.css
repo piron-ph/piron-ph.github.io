@@ -76,8 +76,8 @@ p {
   letter-spacing: 0.1em;
   font-size: 40px;
   padding: 20px 0 0;
-  color: #8e1cfd;
-  text-shadow: 0 0 15px #8e1cfd, 0 0 15px rgba(10, 175, 230, 0);
+  color: #FF0266;
+  text-shadow: 0 0 15px #FF0266, 0 0 15px rgba(10, 175, 230, 0);
 }
 /*Timer*/
 #timerdes {

@@ -30,10 +30,15 @@ html,
 body {
   height: 100%;
   border: 2px solid #c808c8;
+
 }
 
 body {
-  background: #212121;
+  background: rgba(18, 18, 18, 5.5);
+   box-shadow: inset 0 0 15px #FF0266, 0 0 15px rgba(10, 175, 230, 0);
+}
+.bodies{
+  background: rgba(18, 18, 18, 1.5);
 }
 
 p {
@@ -48,7 +53,7 @@ p {
 
 /* Background */
 .bg {
-	background-color: #212121;
+	background-color: #00000;
 }
 
 /*Logo*/
@@ -67,15 +72,15 @@ p {
  transform: translate(-50%, -50%); 
 }
 #navheader {
- font-size: 90px;
+ font-size: 70px;
  text-shadow: 0 0 15px #0aafe6, 0 0 15px rgba(10, 175, 230, 0);
  font-family: Times New Roman;
  color: #ffffff;
  letter-spacing: 5px;
 }
 #navheader .singler1 {
- text-shadow: 0 0 15px #8e1cfd, 0 0 15px rgba(10, 175, 230, 0);
- color: #8e1cfd;
+ text-shadow: 0 0 15px #FF0266, 0 0 15px rgba(10, 175, 230, 0);
+ color: #FF0266;
 }
 #navheader .singler2 {
  text-shadow: 0 0 15px #FAED27, 0 0 15px rgba(10, 175, 230, 0);
