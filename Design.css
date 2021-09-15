@@ -305,7 +305,38 @@ p {
   }
 }
 /*Medoas*/
-@media screen and (max-width: 720px){
+@media screen and (max-height: 480px){
+  #smallsc {
+    margin-top: 20px;
+  }
+  #texto {
+   top: 5%;
+  }
+  #texto .single {
+
+  }
+  #timerdes {
+    font-size: 3090px;
+    top: 70%;
+  }
+  #timerdes .time {
+    letter-spacing: 3px;
+    font-size: 40px;
+    padding: 5px 0;
+  }
+  #timerdes .date {
+    letter-spacing: 3px;
+    font-size: 18px;
+  }
+  #timerdes .text {
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding: 20px 0 0;
+  }
+  #timerdes .singler {
+    color: #FFA500;
+  }
+@media screen and (max-height: 720px){
   #smallsc {
     margin-top: 20px;
   }
