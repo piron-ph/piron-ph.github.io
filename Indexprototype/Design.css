@@ -61,8 +61,8 @@ p {
 #logo {
  text-align: center;
  position: absolute;
- left: 10%;
- top: 10%;
+ left: 50%;
+ top: 25%;
  transform: translate(-50%, -50%);
 }
 #navtext {
@@ -84,8 +84,8 @@ p {
  color: #FF0266;
 }
 #navheader .singler2 {
- text-shadow: 0 0 15px #FAED27, 0 0 15px rgba(10, 175, 230, 0);
- color: #FAED27;
+ text-shadow: 0 0 15px #d9b200, 0 0 15px rgba(10, 175, 230, 0);
+ color: #d9b200;
 }
 /*Introduction*/
 #introduction {
@@ -157,7 +157,7 @@ p {
 	text-shadow: 0 0 10px #0aafe6, 0 0 10px rgba(10, 175, 230, 0);
 }
 #footer .singler {
-  color: #FFA500;
+  color: #d9b200;
 }
 
 /*Neon designs*/
