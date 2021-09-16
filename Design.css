@@ -305,6 +305,81 @@ p {
   }
 }
 /*Medoas*/
+@media screen and (max-width: 320px){
+  #texto {
+    font-size: 25px;
+    top: 10%;
+  } 
+ 
+  #texto .single {
+    font-size: 25px;
+  }
+  #timerdes {
+    font-size: 45px;
+  } 
+  .logoimg { 
+    top:25%;
+  }
+  #timerdes .time {
+    font-size: 50px;
+  }
+  #timerdes .date {
+    font-size: 16px;
+  }
+  #timerdes .text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 480px){
+  #texto {
+    font-size: 25px;
+    top: 10%;
+  } 
+ 
+  #texto .single {
+    font-size: 25px;
+  }
+  #timerdes {
+    font-size: 45px;
+  } 
+  .logoimg { 
+    top:25%;
+  }
+  #timerdes .time {
+    font-size: 50px;
+  }
+  #timerdes .date {
+    font-size: 16px;
+  }
+  #timerdes .text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 600px){
+  #texto {
+    font-size: 25px;
+    top: 10%;
+  } 
+ 
+  #texto .single {
+    font-size: 25px;
+  }
+  #timerdes {
+    font-size: 45px;
+  } 
+  .logoimg { 
+    top:25%;
+  }
+  #timerdes .time {
+    font-size: 50px;
+  }
+  #timerdes .date {
+    font-size: 16px;
+  }
+  #timerdes .text {
+    font-size: 13px;
+  }
+}
 @media screen and (max-width: 1080px){
   #texto {
     font-size: 25px;
