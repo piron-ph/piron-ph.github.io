@@ -218,6 +218,7 @@ p {
   
   #timerdes {
     font-size: 80px;
+    top: 65%;
   } 
   .logoimg { 
     top:25%;
@@ -235,7 +236,7 @@ p {
 @media screen and (max-width: 1366px){
   #timerdes {
     font-size: 70px;
-    top: 55%;
+    top: 75%;
   } 
   .logoimg { 
     top:30%;
@@ -254,7 +255,7 @@ p {
 
   #timerdes {
     font-size: 65px;
-    top: 60%;
+    top: 80%;
   } 
   .logoimg { 
     top:30%;
