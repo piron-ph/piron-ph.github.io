@@ -325,9 +325,10 @@ p {
 @media screen and (min-height: 375px){
   #timerdes {
     font-size: 120px;
+    top: 40%;
   }
   .logoimg {
-    top: 30%;
+    top: 20%;
   }
   #timerdes .text {
     font-size: 20px;
