@@ -59,6 +59,9 @@ p {
  top: 20%;
  transform: translate(-50%, -50%);
 }
+.logostyle {
+  width: 100px;
+}
 
 /*Text*/
 #texto {
@@ -78,6 +81,89 @@ p {
   padding: 20px 0 0;
   color: #FF0266;
   text-shadow: 0 0 15px #FF0266, 0 0 15px rgba(10, 175, 230, 0);
+}
+@media screen and (max-width: 1920px){
+  #texto {
+    font-size: 70px;
+    top: 20%;
+  } 
+ 
+  #texto .single {
+    font-size: 70px;
+  }
+}
+@media screen and (max-width: 1600px){
+  #texto {
+    font-size: 30px;
+    top: 10%;
+  } 
+ 
+  #texto .single {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 1360px){
+  #texto {
+    font-size: 60px;
+    top: 15%;
+  } 
+ 
+  #texto .single {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 1280px){
+  #texto {
+    font-size: 35px;
+    top: 17%;
+  } 
+ 
+  #texto .single {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1080px){
+  #texto {
+    font-size: 25px;
+    top: 10%;
+  } 
+ 
+  #texto .single {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 480px){
+  #texto {
+    font-size: 25px;
+    top: 10%;
+  } 
+  
+  #texto .single {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 320px){
+  #texto {
+    font-size: 25px;
+    top: 10%;
+  } 
+  
+  #texto .single {
+    font-size: 25px;
+  }
+}
+@media screen and (min-height: 375px){
+  #texto {
+    top:10%;
+    font-size: 80px;
+  }
+  #texto .single{
+    font-size: 80px;
+  }
+  .logostyle {
+    width: 200px;
+  }
 }
 /*Timer*/
 #timerdes {
@@ -109,6 +195,142 @@ p {
 }
 #timerdes .singler {
   color: #FFA500;
+}
+@media screen and (max-width: 1920px){
+  
+  #timerdes {
+    font-size: 90px;
+  } 
+  .logoimg { 
+    top:30%;
+  }
+  #timerdes .time {
+    font-size: 50px;
+  }
+  #timerdes .date {
+    font-size: 16px;
+  }
+  #timerdes .text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1600px){
+  
+  #timerdes {
+    font-size: 80px;
+  } 
+  .logoimg { 
+    top:25%;
+  }
+  #timerdes .time {
+    font-size: 50px;
+  }
+  #timerdes .date {
+    font-size: 16px;
+  }
+  #timerdes .text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1366px){
+  #timerdes {
+    font-size: 70px;
+    top: 55%;
+  } 
+  .logoimg { 
+    top:30%;
+  }
+  #timerdes .time {
+    font-size: 50px;
+  }
+  #timerdes .date {
+    font-size: 16px;
+  }
+  #timerdes .text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1280px){
+
+  #timerdes {
+    font-size: 65px;
+    top: 60%;
+  } 
+  .logoimg { 
+    top:30%;
+  }
+  #timerdes .time {
+    font-size: 50px;
+  }
+  #timerdes .date {
+    font-size: 16px;
+  }
+  #timerdes .text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1080px){
+  #timerdes {
+    font-size: 45px;
+  } 
+  .logoimg { 
+    top:25%;
+  }
+  #timerdes .time {
+    font-size: 50px;
+  }
+  #timerdes .date {
+    font-size: 16px;
+  }
+  #timerdes .text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 480px){
+  
+  #timerdes {
+    font-size: 45px;
+  } 
+  .logoimg { 
+    top:25%;
+  }
+  #timerdes .time {
+    font-size: 50px;
+  }
+  #timerdes .date {
+    font-size: 16px;
+  }
+  #timerdes .text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 320px){
+  #timerdes {
+    font-size: 45px;
+  } 
+  .logoimg { 
+    top:25%;
+  }
+  #timerdes .time {
+    font-size: 50px;
+  }
+  #timerdes .date {
+    font-size: 16px;
+  }
+  #timerdes .text {
+    font-size: 13px;
+  }
+}
+@media screen and (min-height: 375px){
+  #timerdes {
+    font-size: 120px;
+  }
+  .logoimg {
+    top: 30%;
+  }
+  #timerdes .text {
+    font-size: 20px;
+  }
 }
 /*footer*/
 #footer {
@@ -305,183 +527,7 @@ p {
   }
 }
 /*Medoas*/
-@media screen and (max-width: 320px){
-  #texto {
-    font-size: 25px;
-    top: 10%;
-  } 
- 
-  #texto .single {
-    font-size: 25px;
-  }
-  #timerdes {
-    font-size: 45px;
-  } 
-  .logoimg { 
-    top:25%;
-  }
-  #timerdes .time {
-    font-size: 50px;
-  }
-  #timerdes .date {
-    font-size: 16px;
-  }
-  #timerdes .text {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 480px){
-  #texto {
-    font-size: 25px;
-    top: 10%;
-  } 
- 
-  #texto .single {
-    font-size: 25px;
-  }
-  #timerdes {
-    font-size: 45px;
-  } 
-  .logoimg { 
-    top:25%;
-  }
-  #timerdes .time {
-    font-size: 50px;
-  }
-  #timerdes .date {
-    font-size: 16px;
-  }
-  #timerdes .text {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 1600px){
-  #texto {
-    font-size: 30px;
-    top: 10%;
-  } 
- 
-  #texto .single {
-    font-size: 30px;
-  }
-  #timerdes {
-    font-size: 80px;
-  } 
-  .logoimg { 
-    top:25%;
-  }
-  #timerdes .time {
-    font-size: 50px;
-  }
-  #timerdes .date {
-    font-size: 16px;
-  }
-  #timerdes .text {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 1080px){
-  #texto {
-    font-size: 25px;
-    top: 10%;
-  } 
- 
-  #texto .single {
-    font-size: 25px;
-  }
-  #timerdes {
-    font-size: 45px;
-  } 
-  .logoimg { 
-    top:25%;
-  }
-  #timerdes .time {
-    font-size: 50px;
-  }
-  #timerdes .date {
-    font-size: 16px;
-  }
-  #timerdes .text {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 1920px){
-  #texto {
-    font-size: 70px;
-    top: 20%;
-  } 
- 
-  #texto .single {
-    font-size: 70px;
-  }
-  #timerdes {
-    font-size: 90px;
-  } 
-  .logoimg { 
-    top:30%;
-  }
-  #timerdes .time {
-    font-size: 50px;
-  }
-  #timerdes .date {
-    font-size: 16px;
-  }
-  #timerdes .text {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 1280px){
-  #texto {
-    font-size: 35px;
-    top: 17%;
-  } 
- 
-  #texto .single {
-    font-size: 35px;
-  }
-  #timerdes {
-    font-size: 65px;
-    top: 60%;
-  } 
-  .logoimg { 
-    top:30%;
-  }
-  #timerdes .time {
-    font-size: 50px;
-  }
-  #timerdes .date {
-    font-size: 16px;
-  }
-  #timerdes .text {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 1366px){
-  #texto {
-    font-size: 60px;
-    top: 15%;
-  } 
- 
-  #texto .single {
-    font-size: 60px;
-  }
-  #timerdes {
-    font-size: 70px;
-    top: 55%;
-  } 
-  .logoimg { 
-    top:30%;
-  }
-  #timerdes .time {
-    font-size: 50px;
-  }
-  #timerdes .date {
-    font-size: 16px;
-  }
-  #timerdes .text {
-    font-size: 13px;
-  }
-}
+
 /*Media*/
 
 
