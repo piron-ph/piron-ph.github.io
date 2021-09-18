@@ -155,7 +155,7 @@ p {
 }
 @media screen and (min-height: 375px){
   #texto {
-    top:10%;
+    top:30%;
     font-size: 80px;
   }
   #texto .single{
@@ -325,13 +325,13 @@ p {
 @media screen and (min-height: 375px){
   #timerdes {
     font-size: 120px;
-    top: 40%;
+    top: 60%;
   }
   .logoimg {
-    top: 20%;
+    top: 40%;
   }
   #timerdes .text {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 /*footer*/
@@ -344,7 +344,7 @@ p {
 	text-align: center;
 	color: #ffffff;
 	font-family: Consolas;
-	font-size: 10px;
+	font-size: 20px;
 	text-shadow: 0 0 10px #0aafe6, 0 0 10px rgba(10, 175, 230, 0);
 }
 #footer .singler {
