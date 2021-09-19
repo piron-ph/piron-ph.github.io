@@ -94,12 +94,12 @@ p {
 }
 @media screen and (max-width: 1600px){
   #texto {
-    font-size: 30px;
-    top: 10%;
+    font-size: 70px;
+    top: 15%;
   } 
  
   #texto .single {
-    font-size: 30px;
+    font-size: 70px;
   }
 }
 @media screen and (max-width: 1360px){
@@ -115,21 +115,11 @@ p {
 @media screen and (max-width: 1280px){
   #texto {
     font-size: 35px;
-    top: 17%;
+    top: 13%;
   } 
  
   #texto .single {
     font-size: 35px;
-  }
-}
-@media screen and (max-width: 1080px){
-  #texto {
-    font-size: 25px;
-    top: 10%;
-  } 
- 
-  #texto .single {
-    font-size: 25px;
   }
 }
 @media screen and (max-width: 480px){
@@ -151,18 +141,6 @@ p {
   
   #texto .single {
     font-size: 25px;
-  }
-}
-@media screen and (min-height: 375px){
-  #texto {
-    top:30%;
-    font-size: 80px;
-  }
-  #texto .single{
-    font-size: 80px;
-  }
-  .logostyle {
-    width: 400px;
   }
 }
 /*Timer*/
@@ -202,26 +180,7 @@ p {
     font-size: 90px;
   } 
   .logoimg { 
-    top:30%;
-  }
-  #timerdes .time {
-    font-size: 50px;
-  }
-  #timerdes .date {
-    font-size: 16px;
-  }
-  #timerdes .text {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 1600px){
-  
-  #timerdes {
-    font-size: 80px;
-    top: 65%;
-  } 
-  .logoimg { 
-    top:25%;
+    top:35%;
   }
   #timerdes .time {
     font-size: 50px;
@@ -239,7 +198,7 @@ p {
     top: 75%;
   } 
   .logoimg { 
-    top:30%;
+    top:40%;
   }
   #timerdes .time {
     font-size: 50px;
@@ -254,7 +213,7 @@ p {
 @media screen and (max-width: 1280px){
 
   #timerdes {
-    font-size: 65px;
+    font-size: 120px;
     top: 80%;
   } 
   .logoimg { 
@@ -320,18 +279,6 @@ p {
   }
   #timerdes .text {
     font-size: 13px;
-  }
-}
-@media screen and (min-height: 375px){
-  #timerdes {
-    font-size: 120px;
-    top: 60%;
-  }
-  .logoimg {
-    top: 40%;
-  }
-  #timerdes .text {
-    font-size: 30px;
   }
 }
 /*footer*/
