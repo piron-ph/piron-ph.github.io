@@ -117,6 +117,16 @@ p {
         font-size: 35px;
     }
 }
+@media screen and (max-width: 1024px) {
+    #texto {
+        font-size: 90px;
+        top: 15%;
+    }
+
+    #texto .single {
+        font-size: 90px;
+    }
+}
 @media screen and (max-width: 780px) {
     #texto {
         font-size: 45px;
@@ -267,6 +277,28 @@ p {
 
     .logoimg {
         top: 25%;
+    }
+
+    #timerdes .time {
+        font-size: 50px;
+    }
+
+    #timerdes .date {
+        font-size: 16px;
+    }
+
+    #timerdes .text {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #timerdes {
+        font-size: 100px;
+        top: 60%;
+    }
+
+    .logoimg {
+        top: 35%;
     }
 
     #timerdes .time {
