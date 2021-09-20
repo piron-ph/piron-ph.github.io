@@ -28,7 +28,7 @@ footer, header, hgroup, menu, nav, section {
 
 html,
 body {
-  height: 100%;
+  height: 99%;
   border: 2px solid #c808c8;
 
 }
@@ -185,5 +185,11 @@ p {
     //text-shadow: none;
     opacity: .99;
     
+  }
+}
+
+@media screen and (max-width: 375){
+  #navheader {
+    font-size: 100px;
   }
 }
