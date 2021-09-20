@@ -28,8 +28,8 @@ footer, header, hgroup, menu, nav, section {
 
 html,
 body {
-  height: 99%;
-  border: 2px solid #c808c8;
+  height: 99.9%;
+  border: 1px solid #c808c8;
 
 }
 
@@ -177,17 +177,6 @@ p {
     opacity: 0.4;
   }
 }
-.lightson{
-  animation: flick 10s ease;
-}
-@keyframes lightson {
-  0%,100% {
-    //text-shadow: none;
-    opacity: .99;
-    
-  }
-}
-
 @media screen and (max-width: 375){
   #navheader {
     font-size: 100px;
