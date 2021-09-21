@@ -1,5 +1,5 @@
 //LIGOLAS NEO MALCIDEM
-var countDownDate = new Date("Oct 5, 2021 15:37:25").getTime();
+var countDownDate = new Date("Oct 8, 2021 08:55:25").getTime();
 
 var x = setInterval(function() {
 

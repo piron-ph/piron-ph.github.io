@@ -34,7 +34,7 @@ body {
 }
 
 body {
-  background: rgba(18, 18, 18, 5.5);
+  background: #000000;
   box-shadow: inset 0 0 15px #FF0266, 0 0 15px rgba(10, 175, 230, 0);
 }
 
