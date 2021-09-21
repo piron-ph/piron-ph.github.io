@@ -226,7 +226,12 @@ p {
         font-size: 13px;
     }
 }
-
+@media screen and (max-width: 1600px) {
+    #timerdes {
+        font-size: 70px;
+        top: 65%
+    }
+}
 @media screen and (max-width: 1366px) {
     #timerdes {
         font-size: 70px;
