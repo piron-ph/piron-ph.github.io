@@ -489,3 +489,28 @@ body[data-aos-duration='6000'] [data-aos],
   [data-aos][data-aos][data-aos-duration='6000'] {
     transition-duration: 7000ms;
   }
+
+.posimg {
+    margin: 10px;
+}
+.posimg1 {
+    margin: 17px;
+}
+.posimg2 {
+    margin: 25px;
+}
+.posimg3 {
+    margin: 14px;
+}
+.posimg4 {
+    margin: 18px;
+}
+.posimg5 {
+    margin: 15px;
+}
+.posimg6 {
+    margin: 21px;
+}
+.posimg7 {
+    margin: 19px;
+}
