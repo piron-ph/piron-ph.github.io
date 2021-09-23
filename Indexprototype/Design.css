@@ -182,3 +182,156 @@ p {
     font-size: 100px;
   }
 }
+
+.btnr {
+    width: 120px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    text-shadow: 0 0 15px #0aafe6, 0 0 15px rgba(10, 175, 230, 0);
+    background: #121212;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+.btnr:before {
+    content: '';
+    background: linear-gradient(90deg, #FF0266, #FAED27, #D9B200, #0AAFE6, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.btnr:active {
+    color: #121212;
+}
+
+.btnr:active:after {
+    background: #212121;
+}
+
+.btnr:hover:before {
+    opacity: 1;
+}
+
+.btnr:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+.fadein {
+    animation: fadeIn 15s;
+    -webkit-animation: fadeIn 15s;
+    -moz-animation: fadeIn 15s;
+    -o-animation: fadeIn 15s;
+    -ms-animation: fadeIn 15s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*Tst*/
+.beam {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 200px solid;
+  background: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1));
+  margin-top: -40%;
+}
+.line {
+  display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #c808c8;
+      margin: 1em 0;
+      padding: 0;
+}
+.ufoanim {
+  animation: ufoanim 5s ease;
+}
+
+@keyframes ufoanim {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
