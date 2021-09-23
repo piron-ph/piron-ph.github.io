@@ -12,44 +12,66 @@
 	<link rel="stylesheet" type="text/css" href="Design.css">
 	<link rel="icon" href="images/logo1.png" type="png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body class="bg">
 
 <!-- Body-->
 <div id="bodies center">
-    <div>
-    <section>
-	<!--LOGO IMG -->
-	<div>
-	<span id="logo">
-		<img src="images/logo.png" style="width: 200px;" class="ufoanim">
-	</span>
-    </div>
+   <header class="main">
+   <!-- LOGOOOOOO -->
+   	 <div id="logo" class="container">
+   	   <img src="images/logo.png" class="ufoanim logostyle">
+     </div>
+   </section>
 
-    <!--LOGO TEXT-->
-	<div id="navtext" class="fadein">
-		<div class="nav-main">
-			<div class="nav-cont">
-				
-			</div>
-		</div>
-	<p id="navheader">Z <span class="singler2 flick-slow">Σ</span> P T <span class="singler1 flick-fast">Λ</span> R</p>
-	<button class="btnr" type="button" onclick="window.location.href='../index.html'">HOME</button>
-	<div class="line"></div>
-	<img src="https://drive.google.com/file/d/1lGdBwjEjm67Nnkg06KPPWmm7EXCD610B/view?usp=sharing">
-    </div>
-
+    <!--Intro and Button-->
+    <section class="section">
+	  <div id="navtext" class="fadein">
+	     <p id="navheader">Z <span class="singler2 flick-slow">Σ</span> P T <span class="singler1 flick-fast">Λ</span> R</p>
+               <button class="btnr" onclick="window.location.href='../index.html'">HOME</button>
+               <button class="btnr" onclick="window.location.href='../index.html'">GALLERY</button>
+               <button class="btnr" onclick="window.location.href='../index.html'">ABOUT US</button>
+               <button class="btnr" onclick="window.location.href='../index.html'">CONTACT US</button>
+          <div class="line"></div>
+       </div>
+       </section>  
+   </header>
+	<section class="section">
+		<div class="container" data-aos="fade-up" data-aos-duration="20000">
+	      <blockquote class="introparags">
+	  A product designed to power up/charge the wireless mouse without having the pain to plug it in an outlet. The very purpose of this project is to create a very comfortable experience for the people who will use it like students, workers, and gamers where the won’t to be bothered by plugging everything and lesser wires to deal with. It is also our goal to be able to introduce but more like encourage people to be more familiar with wireless charging to be able to improve this field.
+	      </blockquote>
+	   </div>
+	   <div data-aos="fade-up" data-aos-duration="1000" class="mousepadpos">
+	   	<button class="mousepadcont">HOVER ME</button>
+	   </div>
+	   <div class="aircoil" data-aos="fade-down" data-aos-duration="2000">
+	   	<img src="images/AirCoil.png">
+	   </div>
+	   <div class="mouse"
+	    data-aos="fade-left"
+	    data-aos-duration="3000"
+	    data-aos-delay="50">
+	   	<img src="images/mousething.png">
+	   </div>
     </section>
 
-
+<section class="section">
     <!--FOOTER-->
-    <div class="">
-    	<p id="footer">ELECTRICAL <span class="singler">ENGINEERING</span></p>
+    <footer>
+    <div class="footercont">
+    	<p id="footer">ELECTRICAL  <span class="singler">ENGINEERING</span></p>
     </div>
+</footer>
+</section>
 
 
 </div>
 <script src="asset.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
