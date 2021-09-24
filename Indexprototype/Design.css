@@ -57,6 +57,9 @@ p {
 .logostyle {
   width: 300px;
 }
+.logostyle:Hover {
+    transform: rotateZ(20deg);
+}
 
 #navtext {
     text-align: center;
@@ -488,4 +491,16 @@ p {
 body[data-aos-duration='6000'] [data-aos],
   [data-aos][data-aos][data-aos-duration='6000'] {
     transition-duration: 7000ms;
+  }
+
+  .shout {
+    position: absolute;
+    top: 240%;
+    left: 40%;
+  }
+  .shouts {
+    color: white;
+  }
+  .shouts:Hover {
+    color: #FF0266;
   }
