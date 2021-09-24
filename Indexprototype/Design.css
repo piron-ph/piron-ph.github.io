@@ -478,15 +478,16 @@ p {
   top: 160%;
   transform: translate(-50%, -50%);
 }
-.aircoil:hover {
-  filter: hue-rotate(120deg);
-}
+
 .mouse {
   z-index: 1;
   position: absolute;
   left: 72%;
   top: 160%;
   transform: translate(-50%, -50%);
+}
+.mousepadcont2 {
+    display: none;
 }
 body[data-aos-duration='6000'] [data-aos],
   [data-aos][data-aos][data-aos-duration='6000'] {
@@ -536,6 +537,7 @@ body[data-aos-duration='6000'] [data-aos],
         display: none;
     }
     .mousepadcont2 {
+        display: block;
         width: 340px;
         height: 300px;
         border: none;
@@ -612,3 +614,14 @@ body[data-aos-duration='6000'] [data-aos],
         padding: 0; 
     }
   }
+  .leftlogo {
+    position: absolute;
+    top: 10%;
+    left: -40%;
+  }
+  .leftlogostyle {
+    width: 100px;
+    opacity: 0.1;
+  }
+
+
