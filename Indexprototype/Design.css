@@ -507,6 +507,8 @@ body[data-aos-duration='6000'] [data-aos],
 
   /* Medias */
 
+/* Desktop/Laptop */
+
   @media screen and (width: 1366px) {
     .mousepadcont {
         width: 1200px;
@@ -524,5 +526,56 @@ body[data-aos-duration='6000'] [data-aos],
     }
     .mousesize {
         width: 100px;
+    }
+  }
+
+  /* Phone */
+
+  @media screen and (width: 375px) {
+    .mousepadcont {
+        width: 340px;
+        height: 300px;
+    }
+    .mousepadcont:before {
+    content: '';
+    background: linear-gradient(90deg, #FF0266, #FAED27, #D9B200, #0AAFE6, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+    @keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+    .aircoil {
+        display: none;
+    }
+    .mouse {
+        display: none;
+    }
+    .introparags {
+        font-size: 15px;
+        text-align: justify-all;
+        border: none;
+        margin: 4px;
+        padding: 0; 
     }
   }
