@@ -504,3 +504,25 @@ body[data-aos-duration='6000'] [data-aos],
   .shouts:Hover {
     color: #FF0266;
   }
+
+  /* Medias */
+
+  @media screen and (width: 1366px) {
+    .mousepadcont {
+        width: 1200px;
+        height: 500px;
+    }
+    .aircoil {
+        top: 163%;
+    }
+    .airsize {
+        width: 400px;
+    }
+    .mouse {
+        top: 163%;
+        left: 73%;
+    }
+    .mousesize {
+        width: 100px;
+    }
+  }
