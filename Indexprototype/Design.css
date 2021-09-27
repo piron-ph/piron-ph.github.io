@@ -909,6 +909,9 @@ body[data-aos-duration='6000'] [data-aos],
         z-index: -1;
         border-radius: 5%;
     }
+    .mousepadpos {
+        left: 8%;
+    }
     .mousepadcont2:before {
     content: '';
     background: linear-gradient(90deg, #FF0266, #FAED27, #D9B200, #0AAFE6, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
@@ -971,7 +974,7 @@ body[data-aos-duration='6000'] [data-aos],
         font-size: 15px;
         text-align: justify-all;
         border: none;
-        margin: 4px;
+        margin: 20px;
         padding: 0; 
     }
         .apecstylelogo {
