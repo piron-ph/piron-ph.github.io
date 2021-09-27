@@ -2,6 +2,7 @@
   Created By Ligolas Neo Malicdem
   Made for APEC Schools Research Fair
   Contributors: Keishia Mae Bulseco;
+  Designs:  Ligolas Neo Malicdem, Keishia Mae Bulseco;
 */
 
 
@@ -134,14 +135,6 @@ p {
     overflow: hidden;
     justify-content: center;
     height: 100px;
-}
-
-/*Mousepad*/
-#mousepad {
-}
-
-/*Anatomy*/
-#anatomy {
 }
 
 /*footer*/
@@ -465,11 +458,33 @@ p {
         background-position: 0 0;
     }
 }
+.mousepadcont span {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 1.5s linear;
+}
+.mousepadcont:hover span {
+    visibility: visible;
+    opacity: 1;
+}
+/*Positions*/
 .mousepadpos {
    position: absolute;
    top: 150%;
    left: 5%;
    transform: translate(-50%, -50%);
+}
+.pcbapos {
+   top: -67%;
+   left: 2%;
+   position: absolute;
+   transition: opacity 3s;
+}
+.circpos {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 10%;
 }
 .aircoil {
   z-index: 1;
@@ -542,9 +557,10 @@ body[data-aos-duration='6000'] [data-aos],
     .mouse {
         top: 163%;
         left: 73%;
+        width: 10px;
     }
     .mousesize {
-        width: 100px;
+        width: 10px;
     }
     .footerapeclogo {
         left: 35%;
