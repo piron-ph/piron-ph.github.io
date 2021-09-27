@@ -554,13 +554,23 @@ body[data-aos-duration='6000'] [data-aos],
     .airsize {
         width: 400px;
     }
+    .circpos {
+        top: 2%;
+    }
+    .circsize {
+        width: 1100px;
+    }
+    .pcbapos {
+        width: 200px;
+        top: -62%;
+    }
     .mouse {
         top: 163%;
         left: 73%;
         width: 10px;
     }
     .mousesize {
-        width: 10px;
+        width: 150px;
     }
     .footerapeclogo {
         left: 35%;
