@@ -1003,6 +1003,9 @@ body[data-aos-duration='6000'] [data-aos],
     .mousepadcont {
         display: none;
     }
+    .mousepadpos {
+        left: 8.5%;
+    }
     .mousepadcont2 {
         display: block;
         width: 340px;
@@ -1077,7 +1080,7 @@ body[data-aos-duration='6000'] [data-aos],
         font-size: 15px;
         text-align: justify-all;
         border: none;
-        margin: 4px;
+        margin: 20px;
         padding: 0; 
     }
         .apecstylelogo {
@@ -1209,9 +1212,12 @@ body[data-aos-duration='6000'] [data-aos],
     .mousepadcont {
         display: none;
     }
+    .mousepadpos {
+        left: ;
+    }
     .mousepadcont2 {
         display: block;
-        width: 340px;
+        width: 690px;
         height: 300px;
         border: none;
         outline: none;
@@ -1283,7 +1289,7 @@ body[data-aos-duration='6000'] [data-aos],
         font-size: 15px;
         text-align: justify-all;
         border: none;
-        margin: 4px;
+        margin: 40px;
         padding: 0; 
     }
         .apecstylelogo {
