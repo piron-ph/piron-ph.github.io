@@ -467,6 +467,18 @@ p {
     visibility: visible;
     opacity: 1;
 }
+.mousepadcont .circdef {
+   display:block;
+}
+.mousepadcont:hover .circdef{
+    display: none;
+}
+.mousepadcont .pcbdef {
+    display: block;
+}
+.mousepadcont:hover .pcbdef {
+    display: none;
+}
 /*Positions*/
 .mousepadpos {
    position: absolute;
@@ -486,12 +498,23 @@ p {
     left: 0;
     margin-left: 10%;
 }
+.circdefpos {
+    position: absolute;
+    left: 9.7%;
+    top: 2%;
+
+}
 .aircoil {
   z-index: 1;
   position: absolute;
   left: 62%;
   top: 160%;
   transform: translate(-50%, -50%);
+}
+.pcbdefpos{
+    position: absolute;
+    left: 2%;
+    top: -3%;
 }
 
 .mouse {
