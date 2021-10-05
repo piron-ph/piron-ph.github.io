@@ -604,6 +604,16 @@ body[data-aos-duration='6000'] [data-aos],
     .lineposfoot {
       left: 15%;
     }
+    .pcbdefpos {
+        width: 200px;
+        top: -2%;
+    }
+    .circdefpos {
+        width: 1000px;
+    }
+    .circsize {
+        width: 1000px;
+    }
   }
   @media screen and (width: 1280px) {
     .mousepadcont {
