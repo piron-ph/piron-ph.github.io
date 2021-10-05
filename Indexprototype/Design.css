@@ -653,7 +653,6 @@ body[data-aos-duration='6000'] [data-aos],
     .lineposfoot {
       left: 15%;
     }
-<<<<<<< HEAD
     .circdefpos {
         width: 500px;
     }
@@ -665,17 +664,6 @@ body[data-aos-duration='6000'] [data-aos],
     }
     .pcbdef {
         width: 500px;
-=======
-    .pcbdefpos {
-        width: 200px;
-        top: -2%;
-    }
-    .circdefpos {
-        width: 950px;
-    }
-    .circsize {
-        width: 950px;
->>>>>>> f014e4c1c64ef8c5212a846ff9ef7dd386f1c13d
     }
   }
   /* Phone */
