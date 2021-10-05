@@ -565,7 +565,57 @@ body[data-aos-duration='6000'] [data-aos],
  /* Medias */
 
 /* Desktop/Laptop */
-
+@media screen and (width: 1440px) {
+    .mousepadcont {
+        width: 1300px;
+        height: 500px;
+    }
+    .aircoil {
+        top: 163%;
+    }
+    .airsize {
+        width: 400px;
+    }
+    .circpos {
+        top: 2%;
+    }
+    .circsize {
+        width: 1100px;
+    }
+    .pcbapos {
+        width: 200px;
+        top: -62%;
+        left: 4%;
+    }
+    .mouse {
+        top: 153%;
+        left: 70%;
+        width: 10px;
+    }
+    .mousesize {
+        width: 150px;
+    }
+    .footerapeclogo {
+        left: 35%;
+    }
+    .apecstylelogo {
+      width: 400px;
+    }
+    .lineposfoot {
+      left: 15%;
+    }
+    .pcbdefpos {
+        width: 200px;
+        top: -2%;
+        left: 4%;
+    }
+    .circdefpos {
+        width: 1100px;
+    }
+    .circsize {
+        width: 1100px;
+    }
+  }
  @media screen and (width: 1366px) {
     .mousepadcont {
         width: 1200px;
