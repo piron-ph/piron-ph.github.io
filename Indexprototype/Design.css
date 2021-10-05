@@ -588,8 +588,8 @@ body[data-aos-duration='6000'] [data-aos],
         top: -62%;
     }
     .mouse {
-        top: 163%;
-        left: 73%;
+        top: 153%;
+        left: 68%;
         width: 10px;
     }
     .mousesize {
@@ -604,6 +604,46 @@ body[data-aos-duration='6000'] [data-aos],
     .lineposfoot {
       left: 15%;
     }
+  }
+  @media screen and (width: 1280px) {
+    .mousepadcont {
+        width: 1150px;
+        height: 500px;
+    }
+    .aircoil {
+        top: 163%;
+    }
+    .airsize {
+        width: 400px;
+    }
+    .circpos {
+        top: 2%;
+    }
+    .circsize {
+        width: 1100px;
+    }
+    .pcbapos {
+        width: 200px;
+        top: -62%;
+    }
+    .mouse {
+        top: 153%;
+        left: 68%;
+        width: 10px;
+    }
+    .mousesize {
+        width: 150px;
+    }
+    .footerapeclogo {
+        left: 35%;
+    }
+    .apecstylelogo {
+      width: 400px;
+    }
+    .lineposfoot {
+      left: 15%;
+    }
+<<<<<<< HEAD
     .circdefpos {
         width: 500px;
     }
@@ -615,6 +655,17 @@ body[data-aos-duration='6000'] [data-aos],
     }
     .pcbdef {
         width: 500px;
+=======
+    .pcbdefpos {
+        width: 200px;
+        top: -2%;
+    }
+    .circdefpos {
+        width: 950px;
+    }
+    .circsize {
+        width: 950px;
+>>>>>>> f014e4c1c64ef8c5212a846ff9ef7dd386f1c13d
     }
   }
   /* Phone */
