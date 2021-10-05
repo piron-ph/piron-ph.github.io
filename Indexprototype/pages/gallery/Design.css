@@ -489,28 +489,23 @@ body[data-aos-duration='6000'] [data-aos],
   [data-aos][data-aos][data-aos-duration='6000'] {
     transition-duration: 7000ms;
   }
-
-.posimg {
-    margin: 10px;
+.headerstyle {
+    position: absolute;
+    top: 0%;
+    left: -50%;
+    margin-top: -250px;
 }
-.posimg1 {
-    margin: 17px;
+.headerstylebot {
+    position: absolute;
+    left: 0%;
+    top: 70%;
+    transform: scaleY(-1);
 }
-.posimg2 {
-    margin: 25px;
+@media screen and (max-width: 1920px){
+    .mousepadpos {
+   position: absolute;
+   top: 150%;
+   left: 5%;
+   transform: translate(-50%, -50%);
 }
-.posimg3 {
-    margin: 14px;
-}
-.posimg4 {
-    margin: 18px;
-}
-.posimg5 {
-    margin: 15px;
-}
-.posimg6 {
-    margin: 21px;
-}
-.posimg7 {
-    margin: 19px;
 }

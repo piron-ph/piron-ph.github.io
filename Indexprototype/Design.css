@@ -604,6 +604,18 @@ body[data-aos-duration='6000'] [data-aos],
     .lineposfoot {
       left: 15%;
     }
+    .circdefpos {
+        width: 500px;
+    }
+    .pcbdefpos {
+        width: 200px;
+    }
+    .circpos {
+        width: 500px;
+    }
+    .pcbdef {
+        width: 500px;
+    }
   }
   /* Phone */
   @media screen and (width: 320px) {
