@@ -1731,9 +1731,13 @@ body[data-route-option=prev-section] .c-header-home_controls, body[data-route-op
   text-shadow:0px 1px 0px #ffffff;
   position: relative;
   z-index: 2;
+  background: linear-gradient(to top, transparent 50%, white 50%);
+  background-size: 200% 200%;
+  background-position: bottom;
+  transition: all .3s ease-out;
 }
 .btnr:hover {
-  background-color:#ffffff;
+  background-position: top;
   color: black;
 }
 .btnr:active {
