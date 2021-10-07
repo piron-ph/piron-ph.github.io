@@ -1,140 +1,27 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-}
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-    display: block;
-}
 
-html, body {
-    height: 100%;
-    width: 100%;
-}
+.scrollHalf { position: relative;}
+/*.scrollHalf__grupo { opacity: calc(1/(1+(var(--visible-y)*var(--visible-y)*var(--visible-y)*var(--visible-y)))); transition: all 200ms ease-in-out;}*/
 
-body {
-    background: #000000;
 
-}
-.bodies {
-    background: rgba(18, 18, 18, 1.5);
-}
+.scrollHalf__grupo {  transition: all 100ms ease-in-out; }
+.scrollHalf__grupo__imagen { 
+  overflow: hidden;
+  width: 100%;
+  }
+.scrollHalf__grupo__contenido { padding: 3rem;     }
+.spinach { 
+  position: absolute;
+  top: 200%;
 
-.mousepad {
-    width: 1700px;
-    height: 700px;
-    border: none;
-    outline: none;
-    color: #fff;
-    text-shadow: 0 0 15px #0aafe6, 0 0 15px rgba(10, 175, 230, 0);
-    background: #121212;
-    z-index: -1;
-    border-radius: 5%;
-}
-.mousepad:before {
-    content: '';
-    background: linear-gradient(90deg, #FF0266, #FAED27, #D9B200, #0AAFE6, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
+ }
 
-.mousepad:active {
-    color: #121212;
-}
+.scrollHalf__grupo[data-scroll="out"] { opacity: 0;}
+.scrollHalf__grupo[data-scroll="in"] { opacity: calc(var(--visible-y)*1.6);  }  
 
-.mousepad:active:after {
-    background: #212121;
-}
 
-.mousepad:hover:before {
-    opacity: 1;
-}
-
-.mousepad:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-
-@keyframes glowing {
-    0% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 400% 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
-}
-.circ {
-	transition: opacity 42s ease-in-out;
-	transition: 0.5s;
-}
-span {
-	transition: 5.5s;
-}
-span:hover {
-	transition:  5s;
-}
-.mousepad span {
-	display: none;
-	z-index: 99;
-	transition: opacity 42s ease-in-out;
-	transition: 0.5s;
-
-}
-.mousepad:before span {
-	transition: opacity 42s ease-in-out;
-}
-.mousepad:hover span{
-	display: block;
-	position: absolute;
-	left: 10%;
-	top: -73%;
-	transition: opacity 42s ease-in-out;
-	animation: Fres 20s linear infinite;
-}
-.mousepadpos {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   transition: opacity 420s ease-in-out;
-
-}
-@keyframes Fres {
-    0% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 400% 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
+@media screen and (min-width:900px) {
+  .scrollHalf__grupo { min-height: 100vh;}
+  .scrollHalf__grupo__imagen { position: fixed; top: 0; left: 0; width: 100%;}
+  .scrollHalf__grupo__imagen img {  min-height: 100vh;  min-width: 100vw; }
 }
