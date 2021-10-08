@@ -131,7 +131,15 @@ p {
     margin-top: 53px;
 }
 }
-
+.gform {
+    width: 720px;
+    height: 920px;
+}
+@media screen and (max-width: 1440px) {
+    .gform {
+        height: 500px;
+    }
+}
 #nav-main {
     position: sticky;
     top: 0;
