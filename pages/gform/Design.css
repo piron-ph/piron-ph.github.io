@@ -46,6 +46,10 @@ p {
     background: #000000;
 
 }
+.gformpos {
+    position: absolute;
+    left: 30%;
+}
 
 /*Logo*/
 #logo {
@@ -145,7 +149,7 @@ p {
     font-family: Consolas;
     font-size: 10px;
     text-shadow: 0 0 10px #0aafe6, 0 0 10px rgba(10, 175, 230, 0);
-    top: 400%;
+    top: 250%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -550,7 +554,7 @@ body[data-aos-duration='6000'] [data-aos],
   }
   .footerapeclogo {
     position: absolute;
-    top: 380%;
+    top: 235%;
     left: 32%;
   }
   .apecstylelogo {
@@ -559,7 +563,7 @@ body[data-aos-duration='6000'] [data-aos],
   }
   .lineposfoot {
     position: absolute;
-    top: 370%;
+    top: 220%;
     left: 25%;
   }
   .apecstylelogophone {
