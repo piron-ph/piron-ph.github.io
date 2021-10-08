@@ -744,13 +744,94 @@ body[data-aos-duration='6000'] [data-aos],
     }
   }
   /* Phone */
-        @media screen and (width: 411px) {
+    @media screen and (width: 375px) {
+    .imagecontmob {
+        display: block;
+        top: 200%;
+        position: absolute;
+    }
+    .imagecontmob2 {
+        display: block;
+        top: 320%;
+        position: absolute;
+    }
+    .imagecont {
+        display: none;
+    }
+    .imagecont2 {
+        display: none;
+    }
+    .imagesizeintromob {
+        width: 375px;
+    }
+    .imagesizeintromob2 {
+        width: 375px;
+    }
+    .textmobcont {
+        position: absolute;
+        top: 105%;
+    }
+    .intromob {
+        color: white;
+        font-size: 30px;
+        text-align: left;
+        margin-bottom: 20px;
+        text-decoration: none;
+        font-weight: 700;
+        font-style: bold;
+        margin-left: 40px;
+        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
+        line-height: 1.06667;
+        letter-spacing: 0;
+
+    }
+    .intromobp {
+        color: white;
+        text-align: left;
+        font-size: 20px;
+        text-align: left;
+        margin-right: 20px;
+        margin-left: 40px;
+        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
+        font-weight: 1;
+    }
+    .textmobcont2 {
+        position: absolute;
+        top: 105%;
+    }
+    .intromob2 {
+        color: white;
+        font-size: 30px;
+        text-align: left;
+        margin-bottom: 20px;
+        text-decoration: none;
+        font-weight: 700;
+        font-style: bold;
+        margin-left: 40px;
+        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
+        line-height: 1.06667;
+        letter-spacing: 0;
+
+    }
+    .intromobp2 {
+        color: white;
+        text-align: left;
+        font-size: 20px;
+        text-align: left;
+        margin-right: 20px;
+        margin-left: 40px;
+        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
+        font-weight: 1;
+    }
     .mousepadcont {
         display: none;
     }
+    .mousepadpos {
+        left: 8.5%;
+    }
     .mousepadcont2 {
         display: block;
-        width: 340px;
+        width: 310px;
         height: 300px;
         border: none;
         outline: none;
@@ -759,9 +840,6 @@ body[data-aos-duration='6000'] [data-aos],
         background: #121212;
         z-index: -1;
         border-radius: 5%;
-    }
-    .mousepadpos {
-        left: 8%;
     }
     .mousepadcont2:before {
     content: '';
@@ -837,14 +915,16 @@ body[data-aos-duration='6000'] [data-aos],
         }
         .footerapeclogo {
             left: 37%;
+            top: 415%;
         }
         .lineposfoot {
             width: 200px;
             left: 23%;
+            top: 410%;
         }
         #footer {
           left: 50.5%;
-          top: 310%;
+          top: 429%;
         }
         .shout {
             left: 10%;
