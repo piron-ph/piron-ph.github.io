@@ -132,8 +132,12 @@ p {
 }
 }
 .gform {
-    width: 720px;
-    height: 920px;
+    width: 100%;
+    height: 100%;
+}
+.containerform {
+  overflow: hidden;
+  width: 100%;
 }
 @media screen and (max-width: 1440px) {
     .gform {
