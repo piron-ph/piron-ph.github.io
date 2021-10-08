@@ -648,6 +648,9 @@ body[data-aos-duration='6000'] [data-aos],
         width: 1200px;
         height: 500px;
     }
+    .mousepadpos {
+        top: 175%;
+    }
     .aircoil {
         top: 163%;
     }
@@ -665,7 +668,7 @@ body[data-aos-duration='6000'] [data-aos],
         top: -62%;
     }
     .mouse {
-        top: 153%;
+        top: 180%;
         left: 68%;
         width: 10px;
     }
