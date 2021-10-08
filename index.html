@@ -2,45 +2,124 @@
 	Made by:Ligolas Neo Malicdem
 	Designed by: Creative Team Group 4
 	Main designer: Keishia Mae Bulseco
+	Designs:  Ligolas Neo Malicdem, Keishia Mae Bulseco;
 -->	
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Z Σ P T Λ R</title>
 	<link rel="stylesheet" type="text/css" href="Design.css">
-	<link rel="icon" href="logo1.png" type="png">
+	<link rel="icon" href="images/logo1.png" type="png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
-<body class="bg fadein">
-
+<body class="bg">
 
 <!-- Body-->
 <div id="bodies center">
-    <div class="smallsc">		
-	<!--LOGO -->
-	<span class="logoimg logoanim">
-		<img src="logo.png" class="logostyle">
-		<img src="logo1.png" class="logostyle">
-		<img src="logo2.jpg" style="border-radius: 50%;" class="logostyle">
-	</span>
-	<!--TEXT-->
-	<div id="texto">
-	<h1>Z Σ P T <span class="single">Λ</span> R</h1>
+   <header class="main">
+   <!-- LOGOOOOOO -->
+   	 <div id="logo" class="container">
+   	   <img src="images/logo.png" class="ufoanim logostyle">
+     </div>
+   </section>
+
+    <!--Intro and Button-->
+
+    <section class="section fpspage">
+	  <div id="navtext" class="fadein">
+
+
+	     <p id="navheader">Z <span class="singler2 flick-slow">Σ</span> P T <span class="singler1 flick-fast">Λ</span> R</p>
+               <button class="btnr" onclick="window.location.href='pages/gallery/index.html'">GALLERY</button>
+               <button class="btnr" onclick="window.location.href='pages/about/index.html'">ABOUT US</button>
+               <button class="btnr" onclick="window.location.href='pages/contact/index.html'">CONTACT US</button>
+          <div class="line"></div>
+       </div>
+       </section>  
+   </header>
+	<section class="section">
+		<div class="container" data-aos="fade-up" data-aos-duration="4000">
+	      <blockquote class="introparags">
+	  A product designed to power up/charge the wireless mouse without having the pain to plug it in an outlet. The very purpose of this project is to create a very comfortable experience for the people who will use it like students, workers, and gamers where the won’t to be bothered by plugging everything and lesser wires to deal with. It is also our goal to be able to introduce but more like encourage people to be more familiar with wireless charging to be able to improve this field.
+	      </blockquote>
+	   </div>
+	   <div data-aos="fade-up" data-aos-duration="1000" class="mousepadpos">
+	   	<button class="mousepadcont">HOVER ME<div class="pcbdef"><img src="images/pcbadef.png" class="pcbdefpos"></div><span><img src="images/pcba.png" class="pcbapos trn"></span><div class="circdef"><img src="images/circuitdefault.png" class="circdefpos"></div><span class="circpos"><img src="images/circuit.png" class="circsize"></span></button>
+	   	<button class="mousepadcont2">CLICK ME</button>
+	   </div>
+	   <div class="mouse"
+	    data-aos="fade-left"
+	    data-aos-duration="6000"
+	    data-aos-delay="50">
+	   	<img src="images/mouse.png" class="mousesize">
+	   </div>
+    </section>
+
+
+
+    <section class="section">
+    	<div data-aos="fade-left" class="imagecont">
+    		<div class="line linepx container"></div>
+    		<img src="images/intro.png" class="imagesizeintro">
+    	</div>
+    	<div data-aos="fade-right" class="imagecont2">
+    		<div class="line linepx container"></div>
+    		<img src="images/intro2.png" class="imagesizeintro">
+    	</div>
+    	<div data-aos="fade-left" class="imagecontmob">
+    		<img src="images/intromob.png" class="imagesizeintromob">
+    		<div class="textmobcont">
+    			<h1 class="intromob">WIRELESS CAPABLE MOUSEPAD</h1>
+    			<p class="intromobp">With wireless charging system, <strong>ZEPTAR</strong>, we have removed the thing called ‘cable’ in “wireless” mouse. We wanted to create a full-on wireless mouse that can get rid of cables. Due to ZEPTAR, we are able to solve the battery barrier, now, dead batteries are gone, infinite charging is here.</p>
+    		</div>
+    	</div>
+    	<div data-aos="fade-left" class="imagecontmob2">
+    		<img src="images/intromob2.png" class="imagesizeintromob2">
+    		<div class="textmobcont2">
+    			<h1 class="intromob2">WIRELESS TECHNOLOGY</h1>
+    			<p class="intromobp2"><strong>ZEPTAR</strong> Provides a wireless transmitter to Charge compativle device (Any device with wireless receiver) which will deliver Endless times of charging when placed on the Pad. This will charge your mouse while you are using it, without wires.</p>
+    		</div>
+    	</div>
+    </section>
+
+
+
+
+    <!--FOOTER-->
+<section class="section">
+
+    <div class="line container lineposfoot" data-aos="fade-right"></div>
+    <footer>
+
+    <div class="footerapeclogo" data-aos="fade-down">
+   	   <img src="images/apeclogos/main.png" class="apecstylelogo">
+   	 </div>
+   	   <div class="footerapeclogo" data-aos="zoom-in">
+   	   <img src="images/apeclogs.png" class="apecstylelogophone">
+   	 </div>
+   	</div>
+    <div class="footercon t">
+    	<p id="footer">ELECTRICAL  <span class="singler">ENGINEERING</span></p>
     </div>
-	<!--TIMER -->
-	<div id="timerdes">
-    <p id="timer" id="time" class="timerin"></p>
-    <p class="text">You're.... <span class="singler">Too early</span></p>
-    <p class="text">Official Release date is set to<span class="singler"> October 8, 9:00 a.m. PHT</span></p>
-    <a href="Indexprototype/index.html" class="btnr">EARLY ACCESS</a>
-    </div>
-    <div>
-    	<p id="footer">ELECTRICAL <span class="singler">ENGINEERING</span></p>
-    </div>
-    </div>
+</footer>
+</section>
+
+<!-- End code -->
 </div>
 <script src="asset.js"></script>
+<script src="slider/slider.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://unpkg.com/scroll-out@2.2.2/dist/scroll-out.min.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+  
 </body>
 </html>
