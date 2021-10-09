@@ -1,0 +1,13 @@
+private:
+    riot-login:
+        persist:
+            session:
+                cookies:
+                -   domain: "auth.riotgames.com"
+                    hostOnly: true
+                    httpOnly: true
+                    name: "tdid"
+                    path: "/"
+                    persistent: true
+                    secureOnly: true
+                    value: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjgyMGU0MGIzLWY5MmYtNDcyZC05YzdmLTQxNWMzNmEyYzYwMyIsIm5vbmNlIjoiRlMxQmM5NWlLRWM9IiwiaWF0IjoxNjMzMDE1MDIzfQ.yqRyP0qgw5NQRF0MBkmalk9Pl45P_-oWIx081dEklP8"

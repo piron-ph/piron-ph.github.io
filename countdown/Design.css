@@ -1,0 +1,690 @@
+/*
+  Created By Ligolas Neo Malicdem
+  Made for APEC Schools Research Fair
+  Contributors: Keishia Mae Bulseco;
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #212121;
+    background: radial-gradient(ellipse at center, rgba(4,1,50,1) 2%, rgba(0,0,0,1) 100%);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    height: 200px;
+    position: relative;
+}
+
+/* Background */
+.bg {
+    background-color: #212121;
+}
+
+/*Logo*/
+.logoimg {
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.logostyle {
+    max-width: 150px;
+}
+
+/*Text*/
+#texto {
+    font-family: Times New Roman;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-shadow: 0 0 10px #FAED27, 0 0 10px rgba(10, 175, 230, 0);
+}
+
+#texto .single {
+    letter-spacing: 0.1em;
+    font-size: 40px;
+    padding: 20px 0 0;
+    color: #FF0266;
+    text-shadow: 0 0 15px #FF0266, 0 0 15px rgba(10, 175, 230, 0);
+}
+
+@media screen and (max-width: 1920px) {
+    #texto {
+        font-size: 70px;
+        top: 20%;
+    }
+
+    #texto .single {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #texto {
+        font-size: 70px;
+        top: 15%;
+    }
+
+    #texto .single {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    #texto {
+        font-size: 50px;
+        top: 25%;
+    }
+
+    #texto .single {
+        font-size: 50px;
+    }
+    .logostyle {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #texto {
+        font-size: 35px;
+        top: 13%;
+    }
+
+    #texto .single {
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #texto {
+        font-size: 90px;
+        top: 15%;
+    }
+
+    #texto .single {
+        font-size: 90px;
+    }
+}
+@media screen and (max-width: 780px) {
+    #texto {
+        font-size: 45px;
+        top: 15%;
+    }
+
+    #texto .single {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    #texto {
+        font-size: 25px;
+        top: 10%;
+    }
+
+    #texto .single {
+        font-size: 25px;
+    }
+    .logostyle {
+      width: 100px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #texto {
+        font-size: 25px;
+        top: 10%;
+    }
+
+    #texto .single {
+        font-size: 25px;
+    }
+    .logostyle {
+        width: 100px;
+    }
+}
+
+/*Timer*/
+#timerdes {
+    font-family: Times New Roman;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    color: #daf6ff;
+    text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+#timerdes .time {
+    letter-spacing: 3px;
+    font-size: 80px;
+    padding: 5px 0;
+}
+
+#timerdes .date {
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+
+#timerdes .text {
+    letter-spacing: 3px;
+    font-size: 20px;
+    padding: 20px 0 0;
+}
+
+#timerdes .singler {
+    color: #FFA500;
+}
+
+@media screen and (max-width: 1920px) {
+    #timerdes {
+        font-size: 90px;
+    }
+
+    .logoimg {
+        top: 35%;
+    }
+
+    #timerdes .time {
+        font-size: 50px;
+    }
+
+    #timerdes .date {
+        font-size: 16px;
+    }
+
+    #timerdes .text {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 1600px) {
+    #timerdes {
+        font-size: 70px;
+        top: 65%
+    }
+}
+@media screen and (max-width: 1366px) {
+    #timerdes {
+        font-size: 70px;
+        top: 65%;
+    }
+
+    .logoimg {
+        top: 38%;
+    }
+
+    #timerdes .time {
+        font-size: 50px;
+    }
+
+    #timerdes .date {
+        font-size: 16px;
+    }
+
+    #timerdes .text {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #timerdes {
+        font-size: 120px;
+        top: 80%;
+    }
+
+    .logoimg {
+        top: 30%;
+    }
+
+    #timerdes .time {
+        font-size: 50px;
+    }
+
+    #timerdes .date {
+        font-size: 16px;
+    }
+
+    #timerdes .text {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    #timerdes {
+        font-size: 45px;
+    }
+
+    .logoimg {
+        top: 25%;
+    }
+
+    #timerdes .time {
+        font-size: 50px;
+    }
+
+    #timerdes .date {
+        font-size: 16px;
+    }
+
+    #timerdes .text {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #timerdes {
+        font-size: 100px;
+        top: 60%;
+    }
+
+    .logoimg {
+        top: 35%;
+    }
+
+    #timerdes .time {
+        font-size: 50px;
+    }
+
+    #timerdes .date {
+        font-size: 16px;
+    }
+
+    #timerdes .text {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 780px) {
+    #timerdes {
+        font-size: 45px;
+        top: 60%;
+    }
+
+    .logoimg {
+        top: 35%;
+    }
+
+    #timerdes .time {
+        font-size: 50px;
+    }
+
+    #timerdes .date {
+        font-size: 16px;
+    }
+
+    #timerdes .text {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 420px) {
+    #timerdes {
+        font-size: 50px;
+        top: 55%;
+    }
+
+    .logoimg {
+        top: 25%;
+        display: flex;
+    }
+
+    #timerdes .time {
+        font-size: 50px;
+    }
+
+    #timerdes .date {
+        font-size: 16px;
+    }
+
+    #timerdes .text {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #timerdes {
+        font-size: 45px;
+        top: 60%;
+    }
+
+    .logoimg {
+        top: 25%;
+        display: flex;
+
+    }
+
+    #timerdes .time {
+        font-size: 40px;
+    }
+
+    #timerdes .date {
+        font-size: 16px;
+    }
+
+    #timerdes .text {
+        font-size: 10px;
+    }
+}
+
+/*footer*/
+#footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-family: Consolas;
+    font-size: 20px;
+    text-shadow: 0 0 10px #0aafe6, 0 0 10px rgba(10, 175, 230, 0);
+}
+
+#footer .singler {
+    color: #FFA500;
+}
+
+/*Btns*/
+.btnr {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid #c808c8;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 12px 76px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #f500f5;
+}
+
+.btnr:hover {
+    background-color: #0aafe6;
+}
+
+.btnr:active {
+    position: relative;
+    top: 1px;
+}
+@media screen and (max-width: 380px){
+    .btnr {
+        font-size: 10px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 1366px){
+    .btnr {
+        font-size: 10px;
+        margin-top: 30px;
+        padding: 12px 40px;
+    }
+    #footer {
+        font-size: 10px;
+    }
+}
+/*Animations*/
+.fadein {
+    animation: fadeIn 15s;
+    -webkit-animation: fadeIn 15s;
+    -moz-animation: fadeIn 15s;
+    -o-animation: fadeIn 15s;
+    -ms-animation: fadeIn 15s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.timerin {
+    animation: timerin 20s;
+    -webkit-animation: fadeIn 10s;
+    -moz-animation: fadeIn 10s;
+    -o-animation: fadeIn 10s;
+    -ms-animation: fadeIn 10s;
+}
+
+@keyframes timerin {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes timerin {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes timerin {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes timerin {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes timerin {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.logoanim {
+    animation: leftright 5s;
+    animation-direction: normal;
+}
+
+@keyframes leftright {
+    0% {
+        left: 50%;
+        top: -100%;
+    }
+}
+
+#lettersanim {
+    animation: upanim 3s;
+    animation-direction: normal;
+}
+
+@keyframes upanim {
+    0% {
+        left: -50%;
+        top: 50%;
+    }
+}
+
+.lettersanim2 {
+    animation: upanim2 5s;
+    animation-direction: normal;
+}
+
+@keyframes upanim2 {
+    0% {
+        left: -50%;
+        top: 50%;
+    }
+}
+
+.lettersanim3 {
+    animation: upanim3 7s;
+    animation-direction: normal;
+}
+
+@keyframes upanim3 {
+    0% {
+        left: -50%;
+        top: 50%;
+    }
+}
+
+.comingsoon-rev {
+    color: #fff;
+    background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 20%);
+    background-position: 0;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rev 3s infinite linear;
+    animation-fill-mode: forwards;
+    -webkit-text-size-adjust: none;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+@-moz-keyframes rev {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 180px;
+    }
+
+    100% {
+        background-position: 180px;
+    }
+}
+
+@-webkit-keyframes rev {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 180px;
+    }
+
+    100% {
+        background-position: 180px;
+    }
+}
+
+@-o-keyframes rev {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 180px;
+    }
+
+    100% {
+        background-position: 180px;
+    }
+}
+
+@keyframes rev {
+    0% {
+        background-position: 0;
+    }
+
+    60% {
+        background-position: 180px;
+    }
+
+    100% {
+        background-position: 180px;
+    }
+}
+
+/*Medoas*/
+/*Media*/
