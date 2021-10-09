@@ -103,10 +103,33 @@ p,a,h1,h2,h3,h4 {
     font-size: 14px;
     color: #d9b200;
 }
-
+.full-name {
+    color: #000;
+    text-shadow: 0 0 2px #FF0266, 0 0 2px rgba(10, 175, 230, 0);
+}
+.quotehov {
+    display: none;
+}
+.default {
+    display: block;
+}
+.image-hover {
+    display: none;
+}
+.section-team .single-person:hover .quotehov {
+    display: block;
+    color: white;
+    margin-top: 10px;
+}
 .section-team .single-person:hover .full-name,
 .section-team .single-person:hover .speciality {
     color: #fff;
+}
+.section-team .single-person:hover .default {
+    display: none;
+}
+.section-team .single-person:hover .image-hover {
+    display: block;
 }
 .button {
     margin-bottom: 100px;
