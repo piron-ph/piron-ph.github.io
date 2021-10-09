@@ -35,7 +35,9 @@ p,a,h1,h2,h3,h4 {
     font-weight: 500;
     color: #FF0266;
 }
-
+.introduction {
+    margin-bottom: 100px;
+}
 .section-team .header-section .title {
     font-weight: 1000;
     font-size: 60px;

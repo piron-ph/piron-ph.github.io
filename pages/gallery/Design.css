@@ -25,7 +25,7 @@ html, body {
 }
 
 .bodies {
-    background: rgba(18, 18, 18, 1.5);
+    background: #000;
 }
 p {
     margin: 0;
@@ -71,7 +71,7 @@ p {
   transition: 0.2s ease-in-out;
 }
 .pagination__item.is-current, .pagination__item:hover {
-  background-color: #fff;
+  background-color: #ff0266;
 }
 
 .container {
@@ -112,7 +112,7 @@ p {
 .slideshow {
   position: relative;
   color: #ffffff;
-  background-color: #1e1e22;
+  background-color: #212121;
   overflow: hidden;
   height: 100vh;
   min-height: 400px;
