@@ -58,6 +58,12 @@ p {
     max-width: 100%;
     margin-bottom: 100px;
 }
+.creds {
+    position: absolute;
+    top: 200%;
+    color: #fff;
+    text-shadow: none;
+}
 .imagecontmob {
     display: none;
 }
