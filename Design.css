@@ -95,10 +95,8 @@ p {
 }
 #navtext {
     text-align: center;
-    position: absolute;
-    left: 50%;
-    top: 90%;
-    transform: translate(-50%, -50%);
+    position: relative;
+    top: 400px;
 }
 
 #navheader {
