@@ -91,7 +91,7 @@ p {
     text-align: center;
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 90%;
     transform: translate(-50%, -50%);
 }
 
@@ -625,6 +625,13 @@ body[data-aos-duration='6000'] [data-aos],
     letter-spacing: 0;
     border-left: 0;
   }
+  .another-line {
+    margin-left: 5px;
+    margin-right: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-top: 3px solid #ff0266;
+  }
   .apeclogomob {
     display: block;
     width: 100px;
@@ -710,4 +717,11 @@ body[data-aos-duration='6000'] [data-aos],
       font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
       font-weight: 1;
   }
+  .mousepadpos {
+    display: none;
+  }
+  .mouse {
+    display: none;
+  }
+  .logo
   }
