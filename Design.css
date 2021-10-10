@@ -47,14 +47,16 @@ p {
 
 }
 .imagecont {
-    position: absolute;
-    top: 250%;
+    position: relative;
     width: 100%;
+    max-width: 100%;
+    margin-bottom: 100px;
 }
 .imagecont2 {
-    position: absolute;
-    top: 370%;
+    position: relative;
     width: 100%;
+    max-width: 100%;
+    margin-bottom: 100px;
 }
 .imagecontmob {
     display: none;
@@ -64,6 +66,7 @@ p {
 }
 .imagesizeintro {
     width: 100%;
+    max-width: 100%;
 }
 
 /*Logo*/
@@ -82,7 +85,7 @@ p {
 }
 .linepx {
     position: relative;
-    top: -100px;
+    margin-bottom: 100px;
 }
 #navtext {
     text-align: center;
@@ -161,13 +164,12 @@ p {
 
 /*footer*/
 #footer {
-    position: absolute;
+    position: relative;
     text-align: center;
     color: #ffffff;
     font-family: Consolas;
     font-size: 10px;
     text-shadow: 0 0 10px #0aafe6, 0 0 10px rgba(10, 175, 230, 0);
-    top: 600%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -175,7 +177,14 @@ p {
 #footer .singler {
     color: #d9b200;
 }
-
+.apeclogo {
+    width: 1000px;
+    max-width: 100%;
+    margin-bottom: 50px;
+}
+.apeclogomob {
+    display: none;
+}
 /*Neon designs*/
 .flick-slow {
     animation: flick 3s linear infinite;
@@ -348,6 +357,7 @@ p {
     border-top: 3px solid #FF0266;
     margin: 1em 0;
     padding: 0;
+    margin-bottom: 100px;
 }
 
 .ufoanim {
@@ -398,7 +408,7 @@ p {
 }
 .container {
     width: 970px;
-    margin: 0 auto;
+    margin: 100px auto;
     max-width: 100%;
     -webkit-transform: translateZ(1000px);
     transform: translateZ(1000px);
@@ -418,6 +428,7 @@ p {
 }
 .mousepadcont {
     width: 1700px;
+    max-width: 100%;
     height: 700px;
     border: none;
     outline: none;
@@ -426,6 +437,7 @@ p {
     background: #121212;
     z-index: -1;
     border-radius: 5%;
+    float: none;
 }
 .mousepadcont:before {
     content: '';
@@ -442,6 +454,7 @@ p {
     opacity: 0;
     transition: opacity .3s ease-in-out;
     border-radius: 10px;
+    max-width: 100%;
 }
 
 .mousepadcont:active {
@@ -504,9 +517,8 @@ p {
 }
 /*Positions*/
 .mousepadpos {
-   position: absolute;
-   top: 150%;
-   left: 5%;
+   position: relative;
+   margin: 100px;
    transform: translate(-50%, -50%);
 }
 .pcbapos {
@@ -514,6 +526,8 @@ p {
    left: 2%;
    position: absolute;
    transition: opacity 3s;
+   width: 300px;
+   max-width: 100%;
 }
 .circpos {
     position: absolute;
@@ -525,6 +539,9 @@ p {
     position: absolute;
     left: 9.7%;
     top: 2%;
+    width: 1500px;
+    max-width: 100%;
+    max-height: 100%;
 
 }
 .aircoil {
@@ -538,6 +555,8 @@ p {
     position: absolute;
     left: 2%;
     top: -3%;
+    width: 300px;
+    max-width: 100%;
 }
 
 .mouse {
@@ -570,14 +589,10 @@ body[data-aos-duration='6000'] [data-aos],
   .shouts:Hover {
     color: #FF0266;
   }
-  .footerapeclogo {
-    position: absolute;
-    top: 580%;
-    left: 32%;
-  }
   .apecstylelogo {
     width: 700px;
     opacity: 0.3;
+    max-width: 100%;
   }
   .lineposfoot {
     position: absolute;
@@ -587,535 +602,112 @@ body[data-aos-duration='6000'] [data-aos],
   .apecstylelogophone {
     display: none;
   }
-
-
- /* SROLL */
- 
-/* Desktop/Laptop */
-@media screen and (width: 1440px) {
-    .mousepadcont {
-        width: 1300px;
-        height: 500px;
-    }
-    .aircoil {
-        top: 163%;
-    }
-    .airsize {
-        width: 400px;
-    }
-    .circpos {
-        top: 2%;
-    }
-    .circsize {
-        width: 1100px;
-    }
-    .pcbapos {
-        width: 200px;
-        top: -62%;
-        left: 4%;
-    }
-    .mouse {
-        top: 153%;
-        left: 70%;
-        width: 10px;
-    }
-    .mousesize {
-        width: 150px;
-    }
-    .footerapeclogo {
-        left: 35%;
-    }
-    .apecstylelogo {
-      width: 400px;
-    }
-    .lineposfoot {
-      left: 15%;
-    }
-    .pcbdefpos {
-        width: 200px;
-        top: -2%;
-        left: 4%;
-    }
-    .circdefpos {
-        width: 1100px;
-    }
-    .circsize {
-        width: 1100px;
-    }
-  }
- @media screen and (width: 1366px) {
-    .mousepadcont {
-        width: 1200px;
-        height: 500px;
-    }
-    .mousepadpos {
-        top: 175%;
-    }
-    .aircoil {
-        top: 163%;
-    }
-    .airsize {
-        width: 400px;
-    }
-    .circpos {
-        top: 2%;
-    }
-    .circsize {
-        width: 1100px;
-    }
-    .pcbapos {
-        width: 200px;
-        top: -62%;
-    }
-    .mouse {
-        top: 180%;
-        left: 68%;
-        width: 10px;
-    }
-    .mousesize {
-        width: 150px;
-    }
-    .footerapeclogo {
-        left: 35%;
-    }
-    .apecstylelogo {
-      width: 400px;
-    }
-    .lineposfoot {
-      left: 15%;
-    }
-    .pcbdefpos {
-        width: 200px;
-        top: -2%;
-    }
-    .circdefpos {
-        width: 1000px;
-    }
-    .circsize {
-        width: 1000px;
-    }
-  }
-  @media screen and (width: 1280px) {
-    .mousepadcont {
-        width: 1150px;
-        height: 500px;
-    }
-    .aircoil {
-        top: 163%;
-    }
-    .airsize {
-        width: 400px;
-    }
-    .circpos {
-        top: 2%;
-    }
-    .circsize {
-        width: 1100px;
-    }
-    .pcbapos {
-        width: 200px;
-        top: -62%;
-    }
-    .mouse {
-        top: 153%;
-        left: 68%;
-        width: 10px;
-    }
-    .mousesize {
-        width: 150px;
-    }
-    .footerapeclogo {
-        left: 35%;
-    }
-    .apecstylelogo {
-      width: 400px;
-    }
-    .lineposfoot {
-      left: 15%;
-    }
-    .circdefpos {
-        width: 500px;
-    }
-    .pcbdefpos {
-        width: 200px;
-    }
-    .circpos {
-        width: 500px;
-    }
-    .pcbdef {
-        width: 500px;
-    }
-  }
   /* Phone */
-        @media screen and (width: 375px) {
-    .imagecontmob {
-        display: block;
-        top: 200%;
-        position: absolute;
-    }
-    .imagecontmob2 {
-        display: block;
-        top: 320%;
-        position: absolute;
-    }
-    .imagecont {
-        display: none;
-    }
-    .imagecont2 {
-        display: none;
-    }
-    .imagesizeintromob {
-        width: 375px;
-    }
-    .imagesizeintromob2 {
-        width: 375px;
-    }
-    .textmobcont {
-        position: absolute;
-        top: 105%;
-    }
-    .intromob {
-        color: white;
-        font-size: 30px;
-        text-align: left;
-        margin-bottom: 20px;
-        text-decoration: none;
-        font-weight: 700;
-        font-style: bold;
-        margin-left: 40px;
-        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
-        line-height: 1.06667;
-        letter-spacing: 0;
 
-    }
-    .intromobp {
-        color: white;
-        text-align: left;
-        font-size: 20px;
-        text-align: left;
-        margin-right: 20px;
-        margin-left: 40px;
-        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
-        font-weight: 1;
-    }
-    .textmobcont2 {
-        position: absolute;
-        top: 105%;
-    }
-    .intromob2 {
-        color: white;
-        font-size: 30px;
-        text-align: left;
-        margin-bottom: 20px;
-        text-decoration: none;
-        font-weight: 700;
-        font-style: bold;
-        margin-left: 40px;
-        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
-        line-height: 1.06667;
-        letter-spacing: 0;
+  @media screen and (max-width: 1024px) {
+  .imagecont {
+    display: none;
+  }
+  .apeclogo {
+    display: none;
+  }
+  .introparags {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: bold;
+    margin-left: 0px;
+    font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
+    line-height: 1.06667;
+    letter-spacing: 0;
+    border-left: 0;
+  }
+  .apeclogomob {
+    display: block;
+    width: 100px;
+    max-width: 100%;
+    margin-bottom: 50px;
+    margin: auto;
+  }
+  .imagecont {
+    display: none;
+  }
+  .imagecont2 {
+    display: none;
+  }
+  .imagecontmob {
+    display: block;
+  }
+  .imagecontmob2 {
+    display: block;
+    margin-top: 100px;
+  }
+  .textmobcont .textmobcont2 {
+    display: block;
+  }
+  .intromob {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: bold;
+    margin-left: 40px;
+    font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
+    line-height: 1.06667;
+    letter-spacing: 0;  
+    margin-top: 50px; 
+  }
+  .intromob {
+   color: white;
+   font-size: 30px;
+   text-align: left;
+   margin-bottom: 20px;
+   text-decoration: none;
+   font-weight: 700;
+   font-style: bold;
+   margin-left: 40px;
+   font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
+   line-height: 1.06667;
+   letter-spacing: 0;
 
-    }
-    .intromobp2 {
-        color: white;
-        text-align: left;
-        font-size: 20px;
-        text-align: left;
-        margin-right: 20px;
-        margin-left: 40px;
-        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
-        font-weight: 1;
-    }
-    .mousepadcont {
-        display: none;
-    }
-    .mousepadpos {
-        left: 8.5%;
-    }
-    .mousepadcont2 {
-        display: block;
-        width: 310px;
-        height: 300px;
-        border: none;
-        outline: none;
-        color: #fff;
-        text-shadow: 0 0 15px #0aafe6, 0 0 15px rgba(10, 175, 230, 0);
-        background: #121212;
-        z-index: -1;
-        border-radius: 5%;
-    }
-    .mousepadcont2:before {
-    content: '';
-    background: linear-gradient(90deg, #FF0266, #FAED27, #D9B200, #0AAFE6, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing2 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-.mousepadcont2:active {
-    color: #121212;
-}
+  }
+ .intromobp {
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    text-align: left;
+    margin-right: 20px;
+    margin-left: 40px;
+    font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
+    font-weight: 1;
+  }
+  .intromob2 {
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    font-style: bold;
+    margin-left: 40px;
+    font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
+    line-height: 1.06667;
+    letter-spacing: 0;
 
-.mousepadcont2:active:after {
-    background: #212121;
-}
-
-.mousepadcont2:hover:before {
-    opacity: 1;
-}
-
-.mousepadcont2:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-    @keyframes glowing2 {
-    0% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 400% 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
-}
-    .aircoil {
-        display: none;
-    }
-    .mouse {
-        display: none;
-    }
-    .introparags {
-        font-size: 15px;
-        text-align: justify-all;
-        border: none;
-        margin: 20px;
-        padding: 0; 
-    }
-        .apecstylelogo {
-            display: none;
-        }
-        .apecstylelogophone {
-            display: block;
-            width: 100px;
-        }
-        .footerapeclogo {
-            left: 37%;
-            top: 425%;
-        }
-        .lineposfoot {
-            width: 200px;
-            left: 23%;
-            top: 420%;
-        }
-        #footer {
-          left: 50.5%;
-          top: 440%;
-        }
-        .shout {
-            left: 10%;
-        }
-      }
-  @media screen and (width: 414px) {
-    .imagecontmob {
-        display: block;
-        top: 200%;
-        position: absolute;
-    }
-    .imagecontmob2 {
-        display: block;
-        top: 320%;
-        position: absolute;
-    }
-    .imagecont {
-        display: none;
-    }
-    .imagecont2 {
-        display: none;
-    }
-    .imagesizeintromob {
-        width: 414px;
-    }
-    .imagesizeintromob2 {
-        width: 414px;
-    }
-    .textmobcont {
-        position: absolute;
-        top: 105%;
-    }
-    .intromob {
-        color: white;
-        font-size: 30px;
-        text-align: left;
-        margin-bottom: 20px;
-        text-decoration: none;
-        font-weight: 700;
-        font-style: bold;
-        margin-left: 40px;
-        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
-        line-height: 1.06667;
-        letter-spacing: 0;
-
-    }
-    .intromobp {
-        color: white;
-        text-align: left;
-        font-size: 20px;
-        text-align: left;
-        margin-right: 20px;
-        margin-left: 40px;
-        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
-        font-weight: 1;
-    }
-    .textmobcont2 {
-        position: absolute;
-        top: 105%;
-    }
-    .intromob2 {
-        color: white;
-        font-size: 30px;
-        text-align: left;
-        margin-bottom: 20px;
-        text-decoration: none;
-        font-weight: 700;
-        font-style: bold;
-        margin-left: 40px;
-        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
-        line-height: 1.06667;
-        letter-spacing: 0;
-
-    }
-    .intromobp2 {
-        color: white;
-        text-align: left;
-        font-size: 20px;
-        text-align: left;
-        margin-right: 20px;
-        margin-left: 40px;
-        font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
-        font-weight: 1;
-    }
-    .mousepadcont {
-        display: none;
-    }
-    .mousepadpos {
-        left: 8.5%;
-    }
-    .mousepadcont2 {
-        display: block;
-        width: 340px;
-        height: 300px;
-        border: none;
-        outline: none;
-        color: #fff;
-        text-shadow: 0 0 15px #0aafe6, 0 0 15px rgba(10, 175, 230, 0);
-        background: #121212;
-        z-index: -1;
-        border-radius: 5%;
-    }
-    .mousepadcont2:before {
-    content: '';
-    background: linear-gradient(90deg, #FF0266, #FAED27, #D9B200, #0AAFE6, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left: -2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing2 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-.mousepadcont2:active {
-    color: #121212;
-}
-
-.mousepadcont2:active:after {
-    background: #212121;
-}
-
-.mousepadcont2:hover:before {
-    opacity: 1;
-}
-
-.mousepadcont2:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-    @keyframes glowing2 {
-    0% {
-        background-position: 0 0;
-    }
-
-    50% {
-        background-position: 400% 0;
-    }
-
-    100% {
-        background-position: 0 0;
-    }
-}
-    .aircoil {
-        display: none;
-    }
-    .mouse {
-        display: none;
-    }
-    .introparags {
-        font-size: 15px;
-        text-align: justify-all;
-        border: none;
-        margin: 20px;
-        padding: 0; 
-    }
-        .apecstylelogo {
-            display: none;
-        }
-        .apecstylelogophone {
-            display: block;
-            width: 100px;
-        }
-        .footerapeclogo {
-            left: 37%;
-            top: 415%;
-        }
-        .lineposfoot {
-            width: 200px;
-            left: 23%;
-            top: 410%;
-        }
-        #footer {
-          left: 50.5%;
-          top: 429%;
-        }
-        .shout {
-            left: 10%;
-        }
-      }
+  }
+  .intromobp2 {
+      color: white;
+      text-align: left;
+      font-size: 20px;
+      text-align: left;
+      margin-right: 20px;
+      margin-left: 40px;
+      font-family: Brown-Pro-Bold,Helvetica,Arial,sans-serif;
+      font-weight: 1;
+  }
+  }
