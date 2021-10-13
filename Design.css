@@ -109,7 +109,9 @@ p {
     100% {opacity:0;width:355px;}
 }
 
-
+#mainmeet {
+    margin-top: 40px;
+}
 /*Logo*/
 #logo {
     text-align: center;
@@ -888,5 +890,8 @@ body[data-aos-duration='6000'] [data-aos],
   }
   .meet-des-container-mobile {
     display: block;
+  }
+  #mainmeet {
+    margin-top: 20px;
   }
 }
