@@ -110,7 +110,10 @@ p {
 }
 
 #mainmeet {
-    margin-top: 30px;
+    margin-top: 10px;
+}
+.disabled {
+
 }
 /*Logo*/
 #logo {
@@ -890,8 +893,5 @@ body[data-aos-duration='6000'] [data-aos],
   }
   .meet-des-container-mobile {
     display: block;
-  }
-  #mainmeet {
-    margin-top: 20px;
   }
 }
