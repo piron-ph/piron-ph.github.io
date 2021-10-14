@@ -187,7 +187,19 @@ p {
     color: #ffffff;
     letter-spacing: 5px;
 }
-
+#navheader3 {
+    font-size: 1vw;
+    font-family: Times New Roman;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
+#navheaderp {
+    font-size: 0.8vw;
+    font-family: Times New Roman;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
 #navheader .singler1 {
     text-shadow: 0 0 15px #FF0266, 0 0 15px rgba(10, 175, 230, 0);
     color: #FF0266;
