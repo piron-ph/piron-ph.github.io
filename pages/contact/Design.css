@@ -93,7 +93,10 @@ p,a,h1,h2,h3,h4 {
     background-color: #fff;
     color: #000000;
 }
+#Contact-deets {
+    display: none;
 
+}
 .section-team .single-person .person-info .full-name {
     margin-bottom: 10px;
     font-size: 28px;
@@ -210,4 +213,11 @@ p,a,h1,h2,h3,h4 {
     text-align: center;
     position: relative;
     margin-top: 300px;
+}
+.single-person2 {
+    margin-top: 30px;
+    padding-left: 800px;
+    background-color: #212121;
+    border-radius: 10px;
+    padding-bottom: 50px;
 }
