@@ -172,6 +172,13 @@ p {
     color: #ffffff;
     letter-spacing: 5px;
 }
+#navheader2 {
+    font-size: 3vw;
+    text-shadow: 0 0 15px #0aafe6, 0 0 15px rgba(10, 175, 230, 0);
+    font-family: Times New Roman;
+    color: #ffffff;
+    letter-spacing: 5px;
+}
 
 #navheader .singler1 {
     text-shadow: 0 0 15px #FF0266, 0 0 15px rgba(10, 175, 230, 0);
@@ -182,7 +189,9 @@ p {
     text-shadow: 0 0 15px #d9b200, 0 0 15px rgba(10, 175, 230, 0);
     color: #d9b200;
 }
-
+#construction {
+    color: white;
+}
 /*Introduction*/
 #introduction {
     text-align: center;
