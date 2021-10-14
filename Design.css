@@ -168,9 +168,17 @@ p {
 #navheader {
     font-size: 7vw;
     text-shadow: 0 0 15px #0aafe6, 0 0 15px rgba(10, 175, 230, 0);
-    font-family: Anurati;
+    font-family: Times New Roman;
     color: #ffffff;
     letter-spacing: 5px;
+}
+.serverdown {
+    font-size: 180px;
+    font-weight: 800;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: url('images/pcbadef.png');
 }
 #navheader2 {
     font-size: 3vw;
