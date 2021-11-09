@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+
+#wrapper {
+	background: #ffeaaa;
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+/* Nav */
+.nav-container {
+	height: 20vh;
+	width: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+.nav-list {
+	display: flex;
+	margin-left: 250px ;
+}
+.nav-list li {
+	font-size: 20px;
+	padding: 10px;
+	margin: 0 5px;
+	text-transform: capitalize;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Courier Prime', monospace;
+	font-weight: 700;
+}
+.nav-list a {
+	color: black;
+}
+.logo-size {
+	width: 400px;
+	max-width: 100%;
+}
+.default-logo {
+	display: block;
+}
+.mobile-logo {
+	display: none;
+}
+/*Bodies*/
+#bodies {
+	position: relative;
+}
+#bodies h1{
+	font-family: "Times New Roman";
+	font-size: 70px;
+	text-align: center;
+	margin: 200px;
+	margin-bottom: 0;
+	justify-content: center;
+}
+#bodies h2{
+	font-family: "Times New Roman";
+	font-size: 20px;
+	text-align: center;
+	margin: 0px;
+}
+.btn-pos {
+	display: flex;
+	justify-content: center;
+	margin: 100px;
+}
+/* News-header */
+#header-container {
+	margin-left: 100px;
+	width: 900px;
+	height: 400px;
+	background-color: #fff;
+	border-radius: 40px;
+	border-color: #f8db52;
+	box-shadow: 15px 15px 0px 0px #d5a515;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	margin-top: 50px;
+	max-width: 100%;
+}
+.header-box {
+	text-align: left;
+	position: relative;
+	overflow: hidden;
+	padding: 40px;
+	height: 100%;
+	float: right;
+	width: 50%;
+}
+#header-container .header-box h1 {
+	font-size: 30px;
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	font-family: 'Courier Prime';
+	text-align: left;
+}
+#header-container .header-box > p {
+	font-family: 'Times New Roman';
+	text-align: left;
+	font-size: 15px;
+	margin-top: 20px;
+	color: #000;
+}
+.header-img {
+	padding-top: 30px;
+	padding-left: 0px;
+}
+.header-img-style {
+	border-radius: 20px;
+	width: 350px;
+}
+/* Bodies-btnrs */
+.btnr {
+	
+	background-color:#ffffff;
+	border-radius:10px;
+	border:1px solid #ffff00;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Times New Roman;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #d5a515;
+}
+.btnr:hover {
+	background-color:#ffffff;
+	box-shadow: 7px 7px 0px 0px #d5a515;
+	transition: 0.4s;
+}
+.btnr:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Mobile-Ver */
+@media screen and (max-width: 1024px) {
+	.mobile-logo {
+		display: block;
+	}
+	.mobile-logo-size {
+		width: 250px;
+		max-width: 100%;
+		margin-top: 100px;
+	}
+	.default-logo {
+		display: none;
+	}
+	#header-container {
+		margin-top: 200px;
+		width: 800px;
+	}
+	.header-img-style {
+		width: 300px;
+	}
+}
