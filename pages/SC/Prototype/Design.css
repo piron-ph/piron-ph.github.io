@@ -47,7 +47,8 @@
 }
 /*Bodies*/
 #bodies {
-	position: relative;
+	width: 70%;
+	float: left;
 }
 #bodies h1{
 	font-family: "Times New Roman";
@@ -140,6 +141,16 @@
 	top:1px;
 }
 
+/* Right-Feeds */
+#right-feeds {
+	float: right;
+	width: 30%;
+	background-color: white;
+	height: 900px;
+	margin-right: -400px;
+	margin-top: -850px;
+	display: block;
+}
 
 /* Mobile-Ver */
 @media screen and (max-width: 1024px) {
