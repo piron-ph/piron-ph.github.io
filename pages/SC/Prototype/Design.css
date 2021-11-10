@@ -2,6 +2,7 @@
    Made By:  Ligolas Neo Malicdem;
    APEC SCHOOLS C.RAYMUNDO
    C-12STEM-2
+   @ln_malicdem
 
    For Student Counsil
 */
@@ -124,6 +125,53 @@
 	border-radius: 20px;
 	width: 350px;
 }
+/*header-second*/
+#header-container-second {
+	margin-left: 100px;
+	width: 750px;
+	height: 350px;
+	background-color: #fff;
+	border-radius: 40px;
+	border-color: #f8db52;
+	box-shadow: 15px 15px 0px 0px #d5a515;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	margin-top: 50px;
+	max-width: 100%;
+}
+.header-box-second {
+	text-align: left;
+	position: relative;
+	overflow: hidden;
+	padding: 30px;
+	height: 100%;
+	float: right;
+	width: 50%;
+}
+#header-container-second .header-box-second h1 {
+	font-size: 30px;
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	font-family: 'Courier Prime';
+	text-align: left;
+}
+#header-container-second .header-box-second > p {
+	font-family: 'Times New Roman';
+	text-align: left;
+	font-size: 15px;
+	margin-top: 20px;
+	color: #000;
+}
+.header-img-second {
+	padding-top: 10px;
+	padding-left: 0px;
+}
+.header-img-style-second {
+	border-radius: 20px;
+	width: 330px;
+}
 /* Bodies-btnrs */
 .btnr {
 	
@@ -153,12 +201,67 @@
 #right-feeds {
 	float: right;
 	width: 30%;
-	background-color: white;
+	border-left: 2px solid #d5a515;
 	height: 900px;
 	margin-right: -400px;
 	margin-top: -850px;
 	display: block;
 }
+#right-header {
+	margin-left: 10px;
+	width: 400px;
+	height: 100px;
+	background-color: #fff;
+	border-radius: 30px;
+	border-color: #f8db52;
+	overflow: hidden;
+	position: relative;
+	max-width: 100%;
+	margin-top: 25px;
+}
+.right-box {
+	text-align: left;
+	position: relative;
+	overflow: hidden;
+	padding: 5px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-right: 10px;
+	height: 100%;
+	float: right;
+	width: 70%;
+}
+#right-header .right-box h1 {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	font-family: 'Courier Prime';
+	text-align: left;
+	font-size: 15px;
+}
+#right-header .right-box > p {
+	font-family: 'Times New Roman';
+	text-align: left;
+	font-size: 13px;
+	margin-top: 4px;
+	color: #000;
+}
+.right-header-img {
+	padding-top: 5px;
+	padding-left: 20px;
+}
+.right-header-img-style {
+	border-radius: 15px;
+	width: 90px;
+}
+#right-header:hover {
+	box-shadow: 15px 15px 0px 0px #d5a515;
+	transition: 0.4s;
+}
+
+
+
+
 
 /* Mobile-Ver */
 @media screen and (max-width: 1024px) {
