@@ -202,10 +202,10 @@
 	float: right;
 	width: 30%;
 	border-left: 2px solid #d5a515;
-	height: 900px;
-	margin-right: -400px;
-	margin-top: -850px;
 	display: block;
+	margin-right: -400px;
+	margin-top: -800px;
+	height: 900px;
 }
 #right-header {
 	margin-left: 10px;
@@ -299,12 +299,12 @@
 }
 .footer-col{
    width: 20%;
-   padding: 0 15px;
+   padding: 0 0px;
 }
 .footer-col-img{
    margin-left: -120px;
    display: flex;
-   margin-right: 170px;
+   margin-right: 150px;
 }
 .footer-col h4{
 	font-size: 18px;
@@ -379,7 +379,114 @@
 		margin-top: 200px;
 		width: 800px;
 	}
+	#right-feeds {
+		display: none;
+	}
 	.header-img-style {
 		width: 100%;
 	}
+	.footer {
+		display: none;
+	}
+}
+@media screen and (max-width: 1400px){
+	/*Mains*/
+	#right-feeds {
+	margin-right: -300px;
+	margin-top: -720px;
+	height: 900px;
+	width: 350px;
+}
+#header-container {
+	margin-left: 50px;
+	width: 750px;
+	height: 350px;
+	background-color: #fff;
+	border-radius: 25px;
+	border-color: #f8db52;
+	box-shadow: 15px 15px 0px 0px #d5a515;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	margin-top: 50px;
+	max-width: 100%;
+}
+#header-container-second {
+	margin-left: 50px;
+	width: 650px;
+	height: 300px;
+	background-color: #fff;
+	border-radius: 25px;
+	border-color: #f8db52;
+	box-shadow: 15px 15px 0px 0px #d5a515;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+	margin-top: 50px;
+	max-width: 100%;
+}
+  /*Subs*/
+  #right-header {
+  	border-radius: 20px;
+  	width: 500px;
+  }
+  .right-box {
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-right: 10px;
+	height: 100%;
+	float: right;
+	width: 70%;
+}
+#right-header .right-box h1 {
+	font-size: 14px;
+}
+#right-header .right-box > p {
+	font-size: 12px;
+	margin-top: 3px;
+	color: #000;
+}
+.right-header-img {
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.right-header-img-style {
+	border-radius: 15px;
+	width: 90px;
+}
+#right-header:hover {
+	box-shadow: 15px 15px 0px 0px #d5a515;
+	transition: 0.4s;
+}
+.header-img {
+	padding-top: 20px;
+	padding-left: 0px;
+}
+.header-img-style {
+	border-radius: 20px;
+	width: 300px;
+}
+.header-img-second {
+	padding-top: 10px;
+	padding-left: 0px;
+}
+.header-img-style-second {
+	border-radius: 20px;
+	width: 280px;
+}
+#header-container-second .header-box-second h1 {
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	font-family: 'Courier Prime';
+	text-align: left;
+}
+#header-container-second .header-box-second > p {
+	font-family: 'Times New Roman';
+	text-align: left;
+	font-size: 15px;
+	margin-top: 20px;
+	color: #000;
+}
 }
