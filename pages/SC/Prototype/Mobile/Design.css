@@ -1,0 +1,280 @@
+/*
+   Made By:  Ligolas Neo Malicdem;
+   APEC SCHOOLS C.RAYMUNDO
+   C-12STEM-2
+   @ln_malicdem
+
+   For Student Counsil
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap');
+#wrapper {
+	background: #ffeaaa;
+	background-size: cover;
+}
+
+/*Ver-Fail*/
+@media screen and (max-width:  790px) {
+	#Scale-ver {
+		display: none;
+	}
+	#Get-Ver {
+		display: block;
+	}
+
+
+	/*Start-Mobile-Ver*/
+	#header {
+
+	}
+	.M-nav-logo {
+
+	}
+	.nav-logo-sze {
+		width: 300px;
+		max-width: 100%;
+	}
+	#bodies {
+		margin: 100px;
+		position: relative;
+	}
+	.container-feed {
+		position: absolute;
+	}
+	/*header*/
+	#header-container {
+		width: 100%;
+		height: 250px;
+		background-color: #fff;
+		border-radius: 25px;
+		border-color: #f8db52;
+		box-shadow: 15px 15px 0px 0px #d5a515;
+		overflow: hidden;
+		text-align: center;
+		position: relative;
+		margin-top: 50px;
+		max-width: 100%;
+	}
+	 .header-box {
+	 	text-align: left;
+	 	position: relative;
+	 	overflow: hidden;
+	 	padding: 20px;
+	 	height: 100%;
+	 	float: right;
+	 	width: 55%;
+	 }
+	 #header-container .header-box h1 {
+	 	font-size: 25px;
+	 	display: inline-block;
+	 	position: relative;
+	 	margin: 0;
+	 	font-family: 'Courier Prime';
+	 	text-align: left;
+	 }
+	 #header-container .header-box > p {
+	 	font-family: 'Times New Roman';
+	 	text-align: left;
+	 	font-size: 13px;
+	 	margin-top: 15px;
+	 	color: #000;
+	 }
+	 .header-img {
+	 	padding-top: 30px;
+	 	padding-left: 0px;
+	 }
+	 .header-img-style {
+	 	border-radius: 20px;
+	 	width: 190px;
+	 }
+	 /*Second*/
+	 #header-container-second {
+	 	width: 100%;
+	 	height: 250px;
+	 	background-color: #fff;
+	 	border-radius: 25px;
+	 	border-color: #f8db52;
+	 	box-shadow: 15px 15px 0px 0px #d5a515;
+	 	overflow: hidden;
+	 	text-align: center;
+	 	position: relative;
+	 	margin-top: 50px;
+	 	max-width: 100%;
+	 }
+	 .header-box-second {
+	 	text-align: left;
+	 	position: relative;
+	 	overflow: hidden;
+	 	padding: 20px;
+	 	height: 100%;
+	 	float: right;
+	 	width: 55%;
+	 }
+	 #header-container-second .header-box-second h1 {
+	 	font-size: 19px;
+	 	display: inline-block;
+	 	position: relative;
+	 	margin: 0;
+	 	font-family: 'Courier Prime';
+	 	text-align: left;
+	 }
+	 #header-container-second .header-box-second > p {
+	 	font-family: 'Times New Roman';
+	 	text-align: left;
+	 	font-size: 13px;
+	 	margin-top: 13px;
+	 	color: #000;
+	 }
+	 .header-img-second {
+	 	padding-top: 30px;
+	 	padding-left: 10px;
+	 }
+	 .header-img-style-second {
+	 	border-radius: 20px;
+	 	width: 190px;
+	 }
+	 /*Right-Feeds*/
+	 #right-feeds {
+	 	display: block;
+	 	height: 900px;
+	 }
+	 #right-header {
+	 	width: 100%;
+	 	height: 200px;
+	 	background-color: #fff;
+	 	border-radius: 25px;
+	 	border-color: #f8db52;
+	 	box-shadow: 15px 15px 0px 0px #d5a515;
+	 	overflow: hidden;
+	 	text-align: center;
+	 	position: relative;
+	 	margin-top: 50px;
+	 	max-width: 100%;
+	 }
+	 .right-box {
+	 	text-align: left;
+	 	position: relative;
+	 	overflow: hidden;
+	 	padding: 5px;
+	 	padding-left: 0px;
+	 	padding-top: 10px;
+	 	padding-right: 10px;
+	 	height: 100%;
+	 	float: right;
+	 	width: 60%;
+	 }
+	 #right-header .right-box h1 {
+	 	display: inline-block;
+	 	position: relative;
+	 	margin: 0;
+	 	font-family: 'Courier Prime';
+	 	text-align: left;
+	 	font-size: 15px;
+	 }
+	 #right-header .right-box > p {
+	 	font-family: 'Times New Roman';
+	 	text-align: left;
+	 	font-size: 13px;
+	 	margin-top: 4px;
+	 	color: #000;
+	 }
+	 .right-header-img {
+	 	padding-top: 15px;
+	 	padding-left: 0px;
+	 }
+	 .right-header-img-style {
+	 	border-radius: 20px;
+	 	width: 170px;
+	 }
+	 #right-header:hover {
+	 	box-shadow: 15px 15px 0px 0px #d5a515;
+	 	transition: 0.4s;
+	 }
+	 .btnr {
+	 	background-color:#ffffff;
+	 	border-radius:10px;
+	 	border:1px solid #ffff00;
+	 	display:inline-block;
+	 	cursor:pointer;
+	 	color:#000000;
+	 	font-family:Times New Roman;
+	 	font-size:15px;
+	 	padding:16px 31px;
+	 	text-decoration:none;
+	 	text-shadow:0px 1px 0px #d5a515;
+	 }
+	 .btnr:hover {
+	 	background-color:#ffffff;
+	 	box-shadow: 7px 7px 0px 0px #d5a515;
+	 	transition: 0.4s;
+	 }
+	 .btnr:active {
+	 	position:relative;
+	 	top:1px;
+	 }
+	 #loadmore {
+	 	display: none;
+	 }
+	 #load-fn-dnone {
+	 	display: block;
+	 	width: 160px;
+	 	justify-content: center;
+	 }
+	 #close-load-fn {
+	 	width: 160px;
+	 	text-align: center;
+	 }
+	 .opn-fn-pos {
+	 	margin-left: 135px;
+	 	margin-top: 20px;
+	 }
+	 .cls-fn-pos {
+	 	margin-left: 135px;
+	 	margin-top: 20px;
+	 }
+}
+@media screen and (max-width: 735px) {
+	#bodies {
+		max-width: 60rem;
+		 margin: auto;
+		 padding: 1em;
+	}
+	#header-container {
+		display: grid;
+		 grid-template-rows: 1fr auto max-content;
+		 width: 22.5rem;
+		 aspect-ratio: 1 / 1.5;
+		 background: #fff;
+		 border-radius: 0.5em;
+		 overflow: hidden;
+	}
+	.header-box {
+		display: grid;
+		  position: relative;
+		  overflow: hidden;
+	}
+	#header-container .header-box h1 {
+		width: max-content;
+  text-transform: capitalize;
+  font-weight: 400;
+  color: #444;
+  font-size: 1.6rem;
+  margin-block: 1rem 2rem;
+  position: relative;
+	}
+	#header-container .header-box > p {
+		font-family: 'Times New Roman';
+		text-align: left;
+		font-size: 13px;
+		margin-top: 15px;
+		color: #000;
+	}
+	.header-img {
+		padding-top: 30px;
+		padding-left: 0px;
+	}
+	.header-img-style {
+		border-radius: 20px;
+		width: 190px;
+	}
+}

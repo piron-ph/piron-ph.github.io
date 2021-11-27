@@ -1,0 +1,54 @@
+
+
+@media screen and (min-width:  791px) {
+	html {}
+	#Scale-ver {
+		display: block;
+		margin: 100px;
+	}
+	#Get-Ver {
+		display: none;
+	}
+	.nav-container {
+		display: none;
+	}
+	.bodies {
+		display: none;
+	}
+    .Ver-fail-text {
+     text-align: center;
+     font-size: 40px;
+    }
+    .Ver-Btnr-Pos {
+    	position: relative;
+    	margin: 0 auto;
+    	display: flex;
+    	justify-content: center;
+    	margin-top: 10px;
+    }
+    .Ver-Btnr {
+    	background-color:#ffffff;
+    	border-radius:10px;
+    	display:inline-block;
+    	cursor:pointer;
+    	color:#000000;
+    	font-family:Times New Roman;
+    	font-size:14px;
+    	padding:20px 40px;
+    	text-decoration:none;
+    }
+    .Ver-Btnr:hover {
+    	background-color:#ffffff;
+    	box-shadow: 7px 7px 0px 0px #d5a515;
+    	transition: 0.4s;
+    }
+    .Ver-Btnr:active {
+    	position:relative;
+    	top:1px;
+    }
+    .Ver-img-sze {
+    	width: 300px;
+    	max-width: 100%;
+    }
+
+}
