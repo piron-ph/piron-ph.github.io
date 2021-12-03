@@ -1,0 +1,15 @@
+{
+  "name": "ars",
+  "version": "1.0.0",
+  "description": "FUCK You",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "LIGOLAS",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.4.0-dev.1638230734.e305156",
+    "nodemon": "^2.0.15"
+  }
+}
