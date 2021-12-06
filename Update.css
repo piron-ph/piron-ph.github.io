@@ -3,13 +3,17 @@
  Copyright:  MIT2021;
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
 h1,p {
-   color: grey;
+   color: white;
+}
+.black {
+	color: black;
 }
 
-
 body {
-	background: #121212;
+	background: #212121;
 }
 #bodyif {
 	margin: 0, auto;
@@ -22,14 +26,32 @@ body {
 	margin-bottom: 20px;
 	margin-top: 200px;
 	font-size: 100px;
+	font-family: coldiac;
+}
+.piron-text {
+	display: flex;
+	justify-content: center;
+	margin: 100px;
+}
+.piron-img {
+	width: 1000px;
 }
 #navtext {
 	text-align: center;
+	font-family: moon;
+}
+.RU-text {
+	font-family: Montserrat;
+	text-transform: uppercase;
+	font-weight: 100;
+	background: -webkit-linear-gradient(#CC8899, #ffffff);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
 }
 .btnr {
-	background-color:#121212;
+	background-color:black;
 	border-radius:7px;
-	border:1px solid #282e29;
+	border:1px solid white;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
