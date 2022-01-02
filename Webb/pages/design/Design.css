@@ -1,0 +1,304 @@
+/*
+ Designed:  Ligolas Neo Malcidem, Johannah Glo Malicdem
+ Copyright:  MIT2021;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Zilla+Slab:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+h1,h2,p {
+   color: white;
+}
+.black {
+	color: black;
+}
+* {
+   margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+	background-color: #fff;
+	background-size: cover;
+  background-position: center;
+	background-repeat: no-repeat;
+  background-color: #212121;
+  -webkit-animation: bodyf 1s;
+  -moz-animation: bodyf 1s;
+  -ms-animation: bodyf 1s;
+  -o-animation: bodyf 1s;
+  animation: bodyf 1s;
+}
+@keyframes bodyf{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes bodyf {
+    from { opacity: 0; }`
+    to   { opacity: 1; }
+}
+@-webkit-keyframes bodyf {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes bodyf {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes bodyf {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+a {
+  text-decoration: none;
+}
+
+.nav-center {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.06);
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  animation: fadein 2s;
+}
+@keyframes fadein {
+    from { background-color: #212121; opacity: 0.6; }
+    to   { background-color: transparent; }
+}
+@-moz-keyframes fadein {
+    from { background-color: #212121; opacity: 0.6; }
+    to   { background-color: transparent; }
+}
+@-webkit-keyframes fadein {
+    from { background-color: #212121; opacity: 0.6; }
+    to   { background-color: transparent; }
+}
+@-ms-keyframes fadein {
+    from { background-color: #212121; opacity: 0.6; }
+    to   { background-color: transparent; }
+}
+@-o-keyframes fadein {
+    from { background-color: #212121; opacity: 0.6; }
+    to   { background-color: transparent; }
+}
+.nav-header h1 {
+  font-size: 28px;
+}
+
+.links {
+  display: flex;
+}
+
+.links li {
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 5px;
+  text-transform: capitalize;
+}
+
+.links li a {
+  color: white;
+  transition: color 0.4s ease-in-out;
+}
+
+.links li a:hover {
+  color: #084e2a;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons li {
+  font-size: 18px;
+  margin: 0 4px;
+}
+
+.fab {
+  color: black;
+}
+
+.fab:hover {
+  color: #084e2a;
+}
+
+.nav-toggle {
+  display: none;
+}
+#solution {
+  background-color: #212121;
+  height: 1000px;
+  opacity: 0.7;
+  border-radius: 2%;
+  animation: 1s ease-out 0s 1 bgsol; 
+}
+@keyframes bgsol {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+#section-child {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  align-items: center;
+  transition: transform .2s;
+}
+#section-child:hover {
+  transform: scale(1.5);
+}
+#section-child-border {
+  background-color: black;
+      padding: 15px 15px;
+      text-align: center;
+      width: 400px;
+      display: flex;
+      flex-wrap: nowrap;
+      margin-left: 10px;
+      border-radius: 10%;
+}
+.section-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.section-header {
+  text-align: center;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.section-header h1 {
+  font-size: 80px;
+}
+.section-header h2 {
+  font-size: 30px;
+}
+
+@media (max-width: 700px) {
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 30px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .nav-toggle:hover {
+    transform: rotate(90deg);
+  }
+
+  .links {
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92vh;
+    top: 8vh;
+    left: -100%;
+    transition: transform 1s ease-in-out;
+    background-color: black;
+    overflow: hidden;
+  }
+
+  .links li a {
+    color: #fff;
+    translate: all 0.6s ease-in-out;
+  }
+
+  .links li a:hover {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .active {
+    transform: translatex(100%);
+  }
+  .social-icons {
+    display: none;
+  }
+}
+
+#wrapper {
+  height: 100px;
+  position: relative;
+}
+.Title-head {
+
+}
+.btn {
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.btnr {
+	background-color:transparent;
+	border-radius:9px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 31px;
+	text-decoration:none;
+}
+.btnr:hover {
+	background-color:transparent;
+}
+.btnr:active {
+	position:relative;
+	top:1px;
+}
+#members {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+.members-flex {
+
+}
+.btnrs{
+  background-color:transparent;
+  border-radius:9px;
+  border:1px solid #ffffff;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:20px;
+  padding: 20px;
+  text-decoration:none;
+}
+.btnrs:hover {
+  background-color: #000;
+  color: white;
+}
+.btnrs:hover .btcls{
+  color: pink;
+}
+.btnrs:active {
+  position:relative;
+  top:1px;
+}

@@ -1,0 +1,239 @@
+/*
+ Designed:  Ligolas Neo Malcidem
+ Copyright:  MIT2021;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Zilla+Slab:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+h1,p {
+   color: white;
+}
+.black {
+	color: black;
+}
+* {
+   margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+	background-image: url(bghome.jpeg);
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: #212121;
+  -webkit-animation: bodyf 1s;
+  -moz-animation: bodyf 1s;
+  -ms-animation: bodyf 1s;
+  -o-animation: bodyf 1s;
+  animation: bodyf 1s;
+}
+@keyframes bodyf{
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes bodyf {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes bodyf {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes bodyf {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes bodyf {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+a {
+  text-decoration: none;
+}
+
+.nav-center {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.06);
+  background: #212121;
+  opacity: 0.6;
+  -webkit-animation: fadein 2s;
+  -moz-animation: fadein 2s;
+  -ms-animation: fadein 2s;
+  -o-animation: fadein 2s;
+  animation: fadein 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.6; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.6; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.6; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.6; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 0.6; }
+}
+.nav-header h1 {
+  font-size: 28px;
+}
+
+.links {
+  display: flex;
+}
+
+.links li {
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 5px;
+  text-transform: capitalize;
+}
+
+.links li a {
+  color: white;
+  transition: color 0.4s ease-in-out;
+}
+
+.links li a:hover {
+  color: #084e2a;
+}
+
+.social-icons {
+  display: flex;
+  color: #fff;
+}
+
+.social-icons li {
+  font-size: 18px;
+  margin: 0 4px;
+  color: white;
+}
+
+.fab {
+  color: white;
+}
+
+.fab:hover {
+  color: #084e2a;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+main {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .nav-toggle {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 30px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    transition: transform 0.6s ease-in-out;
+  }
+
+  .nav-toggle:hover {
+    transform: rotate(90deg);
+  }
+
+  .links {
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 92vh;
+    top: 8vh;
+    left: -100%;
+    transition: transform 1s ease-in-out;
+    background-color: black;
+    overflow: hidden;
+  }
+
+  .links li a {
+    color: #fff;
+    translate: all 0.6s ease-in-out;
+  }
+
+  .links li a:hover {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .active {
+    transform: translatex(100%);
+  }
+  .social-icons {
+    display: none;
+  }
+}
+
+#wrapper {
+  height: 100px;
+  position: relative;
+}
+.Title-head {
+
+}
+.btn {
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.btnr {
+	background-color:transparent;
+	border-radius:9px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 31px;
+	text-decoration:none;
+  background-position: 0 -100%;
+  background-repeat: repeat-x;
+  transition: background-position 0.8s ease;
+  transition: ease 1s;
+}
+.btnr:hover {
+	background-color: #fff;
+  color: black;
+  background-position: 100% 100%;
+
+}
+.btnr:active {
+	position:relative;
+	top:1px;
+}
+
