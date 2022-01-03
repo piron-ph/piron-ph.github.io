@@ -162,7 +162,7 @@ a {
   transition: transform .2s;
 }
 #section-child:hover {
-  
+  transform: scaleX(1.5);
 }
 #section-child-border {
   background-color: black;
