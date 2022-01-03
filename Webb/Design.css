@@ -20,6 +20,10 @@ h1,p {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+section {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
 body {
 	-webkit-background-size: cover;
   -moz-background-size: cover;

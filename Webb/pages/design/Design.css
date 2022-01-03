@@ -20,6 +20,9 @@ h1,h2,p {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+section {
+  scroll-behavior: smooth;
+}
 body {
 	background-color: #fff;
 	background-size: cover;
