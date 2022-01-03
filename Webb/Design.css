@@ -22,7 +22,6 @@ h1,p {
 }
 section {
   scroll-behavior: smooth;
-  overflow-y: scroll;
 }
 body {
 	-webkit-background-size: cover;
