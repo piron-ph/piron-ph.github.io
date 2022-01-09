@@ -20,6 +20,21 @@ h1,h2,p {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+.takeon {
+}
+.polytake {
+position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
 body {
 	background-color: #fff;
 	background-size: cover;
@@ -165,7 +180,6 @@ a {
   transform: scaleX(1.5);
 }
 #section-child-border {
-  background-color: black;
       padding: 15px 15px;
       text-align: center;
       width: 400px;
@@ -182,17 +196,26 @@ a {
   position: relative;
 }
 .section-header {
-  text-align: center;
   margin-top: 70px;
   text-transform: uppercase;
+  text-align: justify;
 }
 .section-header h1 {
   font-size: 80px;
+  text-align: center;
 }
 .section-header h2 {
   font-size: 30px;
 }
-
+.section-header p {
+  text-align: justify;
+}
+.section-header .text-just {
+  text-align: justify;
+}
+.text-ff {
+  text-align: center;
+}
 @media (max-width: 700px) {
   .nav-toggle {
     display: block;
@@ -320,6 +343,7 @@ a {
   font-size: 60px;
   color: #ff006f;
 }
+
 .color-as {
   color: #ff006f;
 }
@@ -336,5 +360,53 @@ a {
   font-size: 25px;
   padding: 10px 10px;
   width: 1000px;
+  text-align: justify;
+}
+.footer {
   text-align: center;
+  margin-top: 250px;
+}
+#block {
+  font-size: 170px;
+  z-index: 2;
+  display: inline-block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#titleTxt {
+  width: 100%;
+  z-index: 2;
+  display: inline-block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  letter-spacing: 10px;
+}
+.center-ul {
+  text-align: center;
+  transition: ease 1s;
+  margin-top: 40px;
+}
+.center-ul li a{
+  color: white;
+}
+.center-ul li {
+  margin-top: 10px;
+}
+.center-ul li a:hover {
+  color: #ff006f;
+  transition: color 0.2s ease-in-out;
 }

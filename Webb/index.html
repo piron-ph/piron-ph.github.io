@@ -14,6 +14,7 @@
 	<link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
 	<link rel="stylesheet" type="text/css" href="Design.css">
 	<link rel="stylesheet" type="text/css" href="pages/design/Design.css">
+  <link rel="stylesheet" type="text/css" href="designanim.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
@@ -22,7 +23,10 @@
 
 <body>
 
-<header>
+<header class="takeon">
+  <video class="polytake" playsinline autoplay muted loop>
+    <source src="bgvi.mp4" type="video/mp4">
+  </video>
 		<nav>
   <div class="nav-center">
     <!-- nav header -->
@@ -102,6 +106,7 @@
 </main>
 </header>
 
+
 <section id="problem" data-aos="fade-up">
   <div class="section-header" data-aos="fade-down">
     <h1>
@@ -128,7 +133,7 @@
 <section id="solution" data-aos="fade-up">
   <div class="section-header">
     <h1>SOLUTION</h1>
-    <h2>Our Solution is to create a website that will contain the following:</h2>
+    <h2 class="text-ff">Our Solution is to create a website that will contain the following:</h2>
   </div>
 
 <div class="seccontainer">
@@ -197,20 +202,101 @@
 <section id="conclusion">
   <div class="section-header" data-aos="fade-up">
     <h1>Conclusion</h1>
-    <p>Create a social media page to find people willing to help, and make a webpage (with or without the people willing that is willing on help in that social media page) then reach out to those who are in need of help (people in poverty) separate their info, create a donation site and a campaign for them, find companies in need of people, find a homeless shelter and try our best giving the people in poverty a chance to lift a foot in life.
+    <p class="text-just">Create a social media page to find people willing to help, and make a webpage (with or without the people willing that is willing on help in that social media page) then reach out to those who are in need of help (people in poverty) separate their info, create a donation site and a campaign for them, find companies in need of people, find a homeless shelter and try our best giving the people in poverty a chance to lift a foot in life.
 </p>
   </div>
 </section>
 
+<section id="references">
+  <div class="section-header" data-aos="fade-left">
+  <h1>REFERENCES</h1>
+  <div class="citation-container">
+    <ul class="center-ul">
+      <li>
+        <a href="https://backpacksforthestreet.org/why-dont-homeless-people-just-get-jobs/#:~:text=%E2%80%9CWhy%20don%E2%80%99t%20they,on%20job%20applications">Backpacks for the street - Why don’t homeless people just get jobs?</a>
+      </li>
+      <li>
+        <a href="https://rasmussen.libanswers.com/faq/248422">Public Awareness</a>
+      </li>
+      <li>
+        <a href="https://www.un.org/deveopment/desa/socialperspective/issues/employment-and-decent-work.html">social perspective</a>
+      </li>
+      <li>
+        <a href="https://incacivilization.000webhostapp.com/Citation.html">Social Networking</a>
+      </li>
+      <li>
+        <a href="https://www.bls.gov/news.release/archives/empsit_11052021.htm">Employment Situation</a>
+      </li>
+      <li>
+        <a href="https://education.seattlepi.com/importance-education-finding-job-1207.html">The Importance of Education in Finding a Job</a>
+      </li>
+      <li>
+        <a href="https://www.brookings.edu/blog/the-avenue/2019/07/02/housing-affordability-and-quality-create-stress-for-heartland-families/">Housing affordability and quality create stress for Heartland families</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</section>
 
-<footer>
-  <div>
-    <h1></h1>
+
+<footer id="footer">
+  <div class="footer">
+    <h1>Work of Group 5 | APEC SCHOOLS</h1>
   </div>
 </footer>
 
 <!--SCRIPTS-->
+<script type="text/javascript">
+ var blockLetters = new TimelineMax({paused:true}),
+      albumLetters = new TimelineMax({paused:false}),
+      TitleTxt = $("#titleTxt"),
+      splitHeadline = new SplitText(titleTxt, {type:"words,chars"}), 
+      chars = splitHeadline.chars,
+      bgController = $("#backgroundController"),
+      letter = $(".letter"),
+      letterTiming = 0.2,
+      spaceTiming = 0.3,
+      stringsArray = ["Break", "The brand new album"],
+      currentString = 0;
 
+
+  function revertSplit(targetSplit, newString){
+
+    if(newString !== undefined){
+      
+      currentString++;
+      
+      albumLetters.pause(0).clear();
+      
+      targetSplit.revert();
+
+     
+      TweenLite.set(titleTxt, {autoAlpha:0, text:{value:newString}});
+
+     
+      splitHeadline = new SplitText(titleTxt, {type:"words,chars"});
+      chars = splitHeadline.chars;
+
+     
+      TweenLite.set(titleTxt, {autoAlpha:1});
+
+      albumLetters
+        .staggerFrom(chars,0.6, {opacity:0, y: -20}, 0.1)
+        .staggerTo(chars,0.6, {opacity:0, y: 20}, 0.05,'+=0', revertSplit, [splitHeadline,stringsArray[currentString]])
+        .play();
+
+    } else {
+      currentString = 0;
+      revertSplit(splitHeadline, stringsArray[currentString]);
+    }
+
+  }
+  currentString++;
+
+  albumLetters
+    .staggerFrom(chars,0.6, {opacity:0, y: -20}, 0.1)
+    .staggerTo(chars,0.6, {opacity:0, y: 20}, 0.05,'+=0', revertSplit, [splitHeadline,stringsArray[currentString]]);
+</script>
 <script type="text/javascript">
 	const btn = document.querySelector(".nav-toggle");
 const links = document.querySelector(".links");
