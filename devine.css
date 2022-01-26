@@ -1,0 +1,55 @@
+body {
+  background-color: #2e2e2e;
+}
+p {
+  color: white;
+  font-size: 20px;
+}
+#wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.intro-container {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav-container {
+  padding: 100px;
+  border: white solid 2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.words-list {
+  text-align: center;
+  font-family: 'times new roman';
+  font-size: 20px;
+}
+#spin {
+  color:red;
+}
+#spin:after {
+  content:"";
+  animation: spin 15s normal;
+  animation-fill-mode: forwards;
+}
+@keyframes spin {
+  0% { content:"Of who you are"; }
+  10% { content:"Of your efflorecent beauty"; }
+  20% { content:"Of your imperfections"; }
+  30% { content:"You make me smile"; }
+  40% { content:"You are the reason im happy waking up"; }
+  50% { content: "You make me soft"; }
+  60% { content: "You make me comfortable"; }
+  70% { content: "I love hearing your voice"; }
+  80% { content: "I love when you are with me"; }
+  90% { content: "You are perfect"; }
+  100% { content: "Of you"; }
+}
