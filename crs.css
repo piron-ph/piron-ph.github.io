@@ -17,7 +17,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: formodule 12s linear forwards;
+    animation: formodule 2s linear forwards;
 }
 @keyframes formodule {
     from {
@@ -66,12 +66,12 @@ input[type=password] {
 }
 @keyframes line {
   from {
-    left:50%;
-    width:0%;
-  }
-  to {
     left:5%;
     width:90%;
+  }
+  to {
+    left:50%;
+    width:0%;
   }
 }
 .line2 {
@@ -85,13 +85,67 @@ input[type=password] {
 }
 @keyframes line2 {
   from {
-    left:50%;
-    width:0%;
-  }
-  to {
     left:15%;
     width:70%;
   }
+  to {
+    left:50%;
+    width:0%;
+  }
+}
+.container {
+  width: 400px;
+  height: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  width: 180px;
+  height: 60px;
+  position: absolute;
+}
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #91C9FF;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: white;
+  color: black;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  transition: 1s ease;
+}
+.btn:hover span {
+    color: black;
 }
 #wrapper {
   position: absolute;
