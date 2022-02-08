@@ -89,4 +89,11 @@ body {
 .introduction-button.hover-color {
 	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(119, 186, 0),rgb(119, 186, 0), rgb(118, 185, 0));
 }
-@media screen and (max-width: 920px)
+@media screen and (max-width: 1024px) {
+	body {
+		background-image: url(https://i.pinimg.com/originals/33/a1/2a/33a12a487c52d7ceca61bde16afba109.jpg);
+	}
+}
+@media screen and (max-width: 920px) {
+
+}
