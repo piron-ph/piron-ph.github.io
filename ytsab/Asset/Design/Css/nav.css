@@ -1,7 +1,4 @@
-/*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
-
-/*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
   --first-color: rgba(119, 186, 0, 0.7);
@@ -175,8 +172,6 @@ img {
 .nav__social-icon:hover {
   color: var(--first-color);
 }
-
-/*Aparecer menu*/
 .show {
   left: 0;
 }
