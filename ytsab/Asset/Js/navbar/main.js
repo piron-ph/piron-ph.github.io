@@ -10,7 +10,7 @@ closeMenu.addEventListener('click', ()=>{
     navMenu.classList.remove('show')
 })
 
-const navLink = document.querySelectorAll('.nav__link');   
+const navLink = document.querySelectorAll('.nav-link');   
 
 function linkAction(){
   navLink.forEach(n => n.classList.remove('active'));
