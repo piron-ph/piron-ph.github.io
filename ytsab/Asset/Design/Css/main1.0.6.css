@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto:wght@300&family=Zen+Kurenaido&display=swap');
+p,h1,h2,h3,h4,h5 {
+	color: white;
+	font-family: 'Zen Kurenaido', sans-serif;
+}
+
+
+body {
+	background-image: url(https://github.com/piron-ph/piron-ph.github.io/blob/main/ytsab/images/Background/bg.jpg?raw=true);
+	background-size: cover;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+#wrapper {
+    position: relative;
+    max-width: 1920px;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    min-height: 100vh;
+}
+#introduction-paragraph {
+    width: 500px;
+    background-color: rgba(18, 18, 18, 0.7);
+    padding: 40px 25px;
+    margin-top: 0;
+    position: absolute;
+    bottom: 10%;
+    left: 10%; 
+}
+#introduction-paragraph h3{
+	font-style: normal;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	margin: 0;
+}
+#introduction-paragraph h1{
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 45px;
+	letter-spacing: 0.535em;
+	margin: 0;
+}
+#introduction-paragraph p {
+	font-family: 'Roboto', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	margin: 0;
+}
+.introduction-button {
+	display: block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:24px;
+	font-weight:bold;
+	padding:20px;
+	width: 500px;
+	text-decoration:none;
+	text-align: center;
+	background-size: 300% 100%;
+	margin-top: 20px;
+	margin-left: -25px;
+
+
+	moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.introduction-button:hover {
+	background-position: 100% 0;
+	moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.introduction-button:active {
+	position:relative;
+	top:1px;
+}
+.introduction-button.hover-color {
+	background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgb(119, 186, 0),rgb(119, 186, 0), rgb(118, 185, 0));
+}
+@media screen and (max-width: 1024px) {
+	body {
+		background-image: url(https://i.pinimg.com/originals/33/a1/2a/33a12a487c52d7ceca61bde16afba109.jpg);
+	}
+}
+@media screen and (max-width: 920px) {
+
+}
