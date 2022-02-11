@@ -8,6 +8,7 @@ p,h1,h2,h3,h4,h5 {
 body {
 	background-image: url(https://github.com/piron-ph/piron-ph.github.io/blob/main/ytsab/images/Background/bg.jpg?raw=true);
 	background-size: cover;
+	background-color: #121212;
 }
 * {
     box-sizing: border-box;
