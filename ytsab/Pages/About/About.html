@@ -85,6 +85,64 @@
      width: 600px;
     }
 }
+
+@media screen and (max-width: 920px) {
+#introduction-paragraph {
+    animation: expand 0.5s;
+    animation-fill-mode: forwards; 
+}
+#introduction-button {
+    animation: expand 0.5s;
+    animation-fill-mode: forwards; 
+}
+#introduction-paragraph h1 {
+    animation: text-expand-h1 0.5s;
+    animation-fill-mode: forwards; 
+}
+#introduction-paragraph h3 {
+    animation: text-expand-h3 0.5s;
+    animation-fill-mode: forwards; 
+}
+#introduction-paragraph p {
+    animation: text-expand-p 0.5s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes expand {
+    0% {
+     width: 300px;
+    }
+    50% {
+     width: 350px;
+    }
+    100% {
+     width: 400px;
+    }
+}
+@keyframes text-expand-h1 {
+    0% {
+     font-size: 45px;
+    }
+    100% {
+     font-size: 25px;   
+    }
+}
+@keyframes text-expand-h3 {
+    0%{
+     font-size: 24px;   
+    }
+    100%{
+     font-size: 15px;   
+    }
+}
+@keyframes text-expand-p {
+    0%{
+     font-size: 24px;   
+    }
+    100%{
+     font-size: 15px;   
+    }
+}
 </style>
 
 
