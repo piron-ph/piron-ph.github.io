@@ -76,17 +76,17 @@ class Slide extends React.Component {
         className: "slide__image",
         alt: headline,
         src: src,
-        onLoad: this.imageLoaded })
-      ), /*#__PURE__*/
+        onLoad: this.imageLoaded })), /*#__PURE__*/
 
 
 
       React.createElement("article", { className: "slide__content" }, /*#__PURE__*/
       React.createElement("h2", { className: "slide__headline" }, headline), /*#__PURE__*/
+      React.createElement("button", { className: "slide__action btn"}, button))));
 
 
 
-  
+  }}
 
 
 
