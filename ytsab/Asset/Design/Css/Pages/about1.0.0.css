@@ -1,0 +1,17 @@
+//about css
+
+#introduction-paragraph {
+	animation: expand 2s;
+}
+.about-expand {
+	animation: expand 2s;
+}
+
+@keyframes expand {
+	0% {
+     width: 500px;
+	}
+	100% {
+	 width: 600px;
+	}
+}
