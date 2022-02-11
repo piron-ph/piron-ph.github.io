@@ -1,0 +1,22 @@
+//about css
+
+#introduction-paragraph {
+	animation: expand 0.5s;
+	animation-fill-mode: forwards; 
+}
+.about-expand {
+	animation: expand 0.5s;
+	animation-fill-mode: forwards; 
+}
+
+@keyframes expand {
+	0% {
+     width: 500px;
+	}
+	50% {
+	 width: 550px;
+	}
+	100% {
+	 width: 600px;
+	}
+}
