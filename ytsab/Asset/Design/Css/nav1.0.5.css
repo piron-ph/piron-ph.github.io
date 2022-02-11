@@ -65,7 +65,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  animation: bounceup 0.5s;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -254,17 +253,5 @@ img {
   .bd-grid {
     margin-left: auto;
     margin-right: auto;
-  }
-}
-
-@keyframes bounceup {
-  0% {
-    top: -100%;
-  }
-  50% {
-    top: 3%;
-  }
-  100% {
-    top: 0%;
   }
 }
