@@ -5,7 +5,7 @@ p,h1,h2,h3,h4,h5 {
 }
 
 
-body {
+.body {
 	background-image: url(https://github.com/piron-ph/piron-ph.github.io/blob/main/ytsab/images/Background/bg.jpg?raw=true);
 	background-size: cover;
 	background-color: #121212;
@@ -16,6 +16,13 @@ body {
 }
 body {
     margin: 0;
+}
+#preload {
+	background: #252525 url(https://cdn.dribbble.com/users/766394/screenshots/2478714/media/f557cfc25925bde5b9433f3ea7fba249.gif) no-repeat center center;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	z-index: 1000000;
 }
 #wrapper {
     position: relative;

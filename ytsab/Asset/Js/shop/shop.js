@@ -16,6 +16,25 @@ const slideData = [{
   index: 3,
   a: 'View',
   src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/ytsab/images/Shop/RTX2080/down.png?raw=true'
+}, {
+  index: 4,
+  a: 'View',
+  src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/ytsab/images/Shop/RTX2080/down.png?raw=true'
+}
+, {
+  index: 5,
+  a: 'View',
+  src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/ytsab/images/Shop/RTX2080/down.png?raw=true'
+}
+, {
+  index: 6,
+  a: 'View',
+  src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/ytsab/images/Shop/RTX2080/down.png?raw=true'
+}
+, {
+  index: 7,
+  a: 'View',
+  src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/ytsab/images/Shop/RTX2080/down.png?raw=true'
 }];
 
 class Slide extends React.Component {
