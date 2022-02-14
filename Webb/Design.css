@@ -332,3 +332,41 @@ main {
 .question {
   margin: 500px;
 }
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #212121;
+  background-color: rgba(8,8,8,0.4);
+}
+.modal-document {
+  background-color: #121212;
+  margin: auto;
+  padding: 30px;
+  width: 100%;
+}
+.modal-document h1 {
+  text-align: left;
+  margin-bottom: 25px;
+}
+.modal-document p {
+  text-align: left;
+}
+.close {
+  float: right;
+  color: #084e2a;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
