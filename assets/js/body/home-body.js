@@ -3,16 +3,18 @@
 const slideData = [{
   index: 0,
   a: 'View',
-  src: './resources/projects/arts.png',
-  href: 'C:/Users/XRD/Documents/classified/artifacts/pages/art/art.html'
+  src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/resources/projects/arts.png?raw=true',
+  href: 'https://piron-ph.github.io/pages/art/art.html'
 }, {
   index: 1,
   a: 'View',
-  src: './resources/projects/inventions.png'
+  src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/resources/projects/inventions.png?raw=true',
+  href: 'https://piron-ph.github.io/pages/art/invention.html'
 }, {
   index: 2,
   a: 'View',
-  src: './resources/projects/projects.png'
+  src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/resources/projects/projects.png?raw=true',
+  href: 'https://piron-ph.github.io/pages/art/projects.html'
 }];
 
 class Slide extends React.Component {
