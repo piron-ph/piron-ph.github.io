@@ -63,12 +63,172 @@
 				<div class="fullwidth-block">
 					<div class="container">
 						<div class="row">
-							<div class="content col-md-8">
+							<div class="content col-md-12">
 								<div class="post single">
-									<h2 class="entry-title">TITLE</h2>
-									<p>UPDATING.....</p>
-									<div class="featured-image"><img src="images/featured-image-1.jpg" alt=""></div>
-									
+									<h2 class="entry-title">SOLUTION</h2>
+									<p>Our Proposed solution is making infographics information capable of giving a detailed yet fun informations about typhoon, this may also include preparedness.
+										We would also make a video and poster as part of the solution, just like infographics, this will also consist of informations about typhoon and preparedness.  
+									</p>
+									<div class="featured-image"><img src="images/infg1.png" alt=""></div>
+									<p>What makes our solution unique is through making them have Easier access to it by making our posters and infographics their gadget screen or wallpaper in case of an emergency or by always turning on their notifications in all social media to keep updated.
+										We will also be putting things like Q&A polls and a chain where people will share our posts and test their knowledge
+									</p>
+									<h1>
+										Q&A
+									</h1>
+
+									<div class="question">
+										This is an example of our Q&A polls
+									  </div>
+									  <div class="answercont">
+										<div class="answer">
+										  When clicked, the audience will see the possible answer for the question, and the polls will be displayed on the bottom<br><br>
+										  <div class="poll-option">
+											<span class="poll-option__label">Answer 1</span>
+											<table class="poll-option__result">
+											  <tr>
+												<td>Voter: 200</td>
+												<td>
+												  <span style="width: 25%;"></span>
+												</td>
+												<td>25%</td>
+											  </tr>
+											</table>
+										  </div>
+										  
+										  <div class="poll-option">
+											<span class="poll-option__label">Answer 2</span>
+											<table class="poll-option__result">
+											  <tr>
+												<td>Voter: 123</td>
+												<td>
+												  <span></span>
+												  <span style="width: 53%;"></span>
+												</td>
+												<td>53%</td>
+											  </tr>
+											</table>
+										  </div>
+										  
+										  <div class="poll-option">
+											<span class="poll-option__label">answer 3</span>
+											<table class="poll-option__result">
+											  <tr>
+												<td>Voter: 547</td>
+												<td>
+												  <span></span>
+												  <span style="width: 87%;"></span>
+												</td>
+												<td>87%</td>
+											  </tr>
+											</table>
+										  </div>
+										</div>
+									  </div>
+									</div>
+
+									<style>
+										.question {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 20px 80px 20px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question::after {
+  content: "\002B";
+  font-size: 2.2rem;
+  position: absolute;
+  right: 20px;
+  transition: 0.2s;
+}
+
+.question.active::after {
+  transform: rotate(45deg);
+}
+
+.answercont {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.answer {
+  padding: 0 20px 20px;
+  line-height: 1.5rem;
+}
+
+.question.active + .answercont {
+}
+.poll-option {
+  margin-bottom: 25px;
+}
+
+span.poll-option__label {
+  font-weight: bold;
+}
+
+table.poll-option__result {
+  width: 100%;
+}
+  tr td {
+    padding: 0;
+  }
+  
+  td:nth-child(odd) {
+    width: 40px;
+  }
+  
+  td:nth-child(even) {
+    border: 0;
+    height: 100%;
+    position: relative;
+    vertical-align: center;
+    width: 100%;
+  }
+  
+  td:first-child {
+    padding-right: 20px;
+  }
+  
+  td:last-child {
+    padding-left: 20px;
+  }
+  
+  span {
+    border-radius: 3px;
+    display: block;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  span:first-child {
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+  
+  span:last-child {
+    background: rgb(137, 241, 0);
+    background-image: linear-gradient(to right, #ff5a00, #e3a417);
+  }
+
+@media screen and (max-width: 790px){
+  html {
+    font-size: 14px;
+  }
+  .wrapper {
+  width: 80%;
+}
+}
+									</style>
+
+									<p>we will make our post interactive and fun for the people, that way they can be entertained while learning. We will also make a chain in which people can share our post and talk about it.</p>
+
 									<div class="entry-content">
 										
 									</div>
@@ -110,6 +270,27 @@
 		<script src="js/jquery-1.11.1.min.js"></script>
 		<script src="js/plugins.js"></script>
 		<script src="js/app.js"></script>
+		<script>
+			let question = document.querySelectorAll(".question");
+
+question.forEach(question => {
+  question.addEventListener("click", event => {
+    const active = document.querySelector(".question.active");
+    if(active && active !== question ) {
+      active.classList.toggle("active");
+      active.nextElementSibling.style.maxHeight = 0;
+    }
+    question.classList.toggle("active");
+    const answer = question.nextElementSibling;
+    if(question.classList.contains("active")){
+      answer.style.maxHeight = answer.scrollHeight + "px";
+    } else {
+      answer.style.maxHeight = 0;
+    }
+  })
+})
+
+		</script>
 		
 	</body>
 
