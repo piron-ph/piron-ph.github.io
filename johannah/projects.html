@@ -82,9 +82,10 @@
 									  </div>
 									  <div class="answercont">
 										<div class="answer">
+											<br>
 										  When clicked, the audience will see the possible answer for the question, and the polls will be displayed on the bottom<br><br>
 										  <div class="poll-option">
-											<span class="poll-option__label">Answer 1</span>
+											  <div class="poll-option__label">Answer 1</div>
 											<table class="poll-option__result">
 											  <tr>
 												<td>Voter: 200</td>
@@ -97,7 +98,7 @@
 										  </div>
 										  
 										  <div class="poll-option">
-											<span class="poll-option__label">Answer 2</span>
+											<div class="poll-option__label">Answer 2</div>
 											<table class="poll-option__result">
 											  <tr>
 												<td>Voter: 123</td>
@@ -111,7 +112,7 @@
 										  </div>
 										  
 										  <div class="poll-option">
-											<span class="poll-option__label">answer 3</span>
+											<div class="poll-option__label">Answer 3</div>
 											<table class="poll-option__result">
 											  <tr>
 												<td>Voter: 547</td>
@@ -128,7 +129,7 @@
 									</div>
 
 									<style>
-										.question {
+.question {
   font-size: 1.2rem;
   font-weight: 600;
   padding: 20px 80px 20px 20px;
@@ -136,6 +137,8 @@
   display: flex;
   align-items: center;
   cursor: pointer;
+  background-color: #262936;
+  border-radius: 10px;
 }
 
 .question::after {
@@ -158,7 +161,10 @@
 
 .answer {
   padding: 0 20px 20px;
+  margin-top: 15px;
   line-height: 1.5rem;
+  background-color: #262936;
+  border-radius: 10px;
 }
 
 .question.active + .answercont {
