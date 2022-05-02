@@ -2,39 +2,122 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>P I R O N</title>
-	<link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
-	<link rel="stylesheet" type="text/css" href="Update.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/navigation.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main-home.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main-home-body.css">
+    <link rel="stylesheet" href="assets/css/main-global.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/modal/modal.css">
+	<title>ANDEFINE</title>
 </head>
-<body id="bodyif">
-	<!-- Body-->
-<div>
-   <header class="header">
+<body style="background-image: none;">
+    <div id="preload">
+        <div class='loading'>
+            <img src="resources/main/andefine-full.png">
+            <div class="load-anim"></div>
+        </div>
+    </div>
+    
 
-    <!--Intro and Button-->
-    <<span class="piron-text">
-    	<img src="piron.png" class="piron-img">
+    <header class="header slider--green">
+            <a href="#" class="header__logo">ANDEFINE</a>
 
-    </span>
-	  <div id="navtext">
-	  	<h1 class="RU-text">Добро пожаловать</h1>
-                <button class="btnr" onclick="window.location.href='Moon.pdf'">ARTS</button>
-                <button class="btnr" onclick="window.location.href='Rover.pdf'">ROVER</button>
-                <button class="btnr" onclick="window.location.href='zeptar/index.html'">ZEPTAR</button>
-                <button class="btnr" onclick="window.location.href='zeptar/zeptar.html'">ActivOs</button>
-                <button class="btnr" onclick="window.location.href='zeptar/zeptar.html'">RF</button>
-                <button class="btnr" onclick="window.location.href='zeptar/zeptar.html'">PS</button>
-                <button class="btnr" onclick="window.location.href='zeptar/zeptar.html'">HERSA</button>
-                <button class="btnr" onclick="window.location.href='https://piron-ph.github.io/Webb/index.html'">Webb</button>
-       </div>
-   </header>
-   <div>
-   <section class="Construction">
-   	<i class="fas fa-hard-hat" style="font-size: 200px;"></i>
-   	<h1>THIS SITE IS UNDER RE-<span class="black">DEVELOPMENT</span></h1>
-   	<p>Please refer to this link in-order to see the old website</p>
-   </section>
+            <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>
+
+            <nav class="nav" id="nav-menu">
+                <div class="nav-content bd-grid">
+
+                    <ion-icon name="close-outline" class="nav-close" id="nav-close"></ion-icon>
+    
+                    <div class="nav-logo">
+                        <div class="nav-img">
+                            <img src="images/minilogo.png" alt="">
+                        </div>
+                        
+                        <div>
+                            <a href="#" class="nav-logo-name">ANDEFINE</a>
+                            <span class="nav-texter">Open-Source Projects</span>
+                        </div>
+                    </div>
+    
+                    <div class="nav--menu">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#" class="nav-link active">HOME</a></li>
+                            <li class="nav-item"><a href="javascript:about()" class="nav-link">ABOUT</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">GIT</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+<!--Modal yo!-->
+<div id="modal-main-container" onclick="moDal()">       
+<div id="home-modal">
+    <div class="modal-main">
+        <h1>
+            Hey, Welcome to my page!
+        </h1>
+        <p>Why are you seeing this message?</p>
+        <p>Well, <span style="text-decoration: underline;">this website is not finished yet,</span> and is still under development. You are seeing the firs trial of the web, which means that links, images, button and more may be broken or still not done. <span style="text-decoration: underline;">You may remove this message by clicking anywhere in this box.</span></p>
+        <p style="text-decoration: underline;">You may contact me at: ligolasneomalicdem@gmail.com</p>
+    </div>
 </div>
-<script src="https://kit.fontawesome.com/c7b21b5664.js" crossorigin="anonymous"></script>
+</div>
+
+<div id="app"></div>
+<article id="about">
+    <div class="article-title">
+        <h1>je</h1>
+    </div>
+</article>
+
+
+<style type="text/css">
+    .slider--green {
+        animation: slide-right 2s;
+        animation-fill-mode: forwards;
+        border-bottom: solid #fff;
+        background: #121212;
+    }
+    @keyframes slide-right{
+        0% {
+            border-width: 0px;
+        }
+        20% {
+            border-width: 0px;
+        }
+        30% {
+            border-width: 0px;
+        }
+        50% {
+            border-width: 0px;
+        }
+        100% {
+            border-width: 3px;
+        }
+    }
+</style>
+
+<!-- end -->
+</div>
+<script>
+    function moDal() {
+      document.getElementById("modal-main-container").style.display = "none";
+    }
+    </script>
+
+<!-- scripts -->
+<script src="assets\js\preload\main.js"></script>
+<script src="assets\js\navigation\main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.8.6/umd/react.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.8.6/umd/react-dom.production.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/react-transition-group/4.2.1/react-transition-group.min.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="assets\js\body\home-body.js"></script>
+<script src="assets\js\global\global.js"></script>
+<script src="https://unpkg.com/ionicons@6.0.0/dist/ionicons.js"></script>
+
 </body>
 </html>

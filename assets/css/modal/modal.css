@@ -1,0 +1,25 @@
+#home-modal {
+    z-index: 9999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.modal-main {
+    background-color: rgba(19, 19, 19, 0.96);
+    border: solid white 2px;
+    width: 700px;
+    height: 300px;
+    border-radius: 7px;
+    padding: 10px 15px 10px;
+}
+.modal-main h1 {
+    font-size: 30px;
+    color: white;
+    margin-top: -7px;
+}
+.modal-main p {
+    font-size: 21px;
+    color: white;
+}
