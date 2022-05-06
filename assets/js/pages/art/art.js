@@ -9,6 +9,12 @@ const slideData = [{
   index: 1,
   a: 'View',
   src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/resources/projects/gallerysc.png?raw=true',
+  href: 'C:\Users\XRD\Documents\GitHub\piron-ph.github.io\pages\art\test'
+},
+{
+  index: 2,
+  a: 'View',
+  src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/images/mooncv.png?raw=true',
   href: 'https://piron-ph.github.io/pages/art/gallery/gallery.html'
 }];
 
