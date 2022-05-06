@@ -4,7 +4,7 @@ const slideData = [{
   index: 0,
   a: 'View',
   src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/resources/projects/artsc.png?raw=true',
-  href: 'https://piron-ph.github.io/pages/art/art/art.html'
+  href: 'https://piron-ph.github.io/pages/art/art/heliacal.html'
 }, {
   index: 1,
   a: 'View',
