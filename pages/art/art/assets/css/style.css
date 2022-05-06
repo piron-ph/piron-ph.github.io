@@ -1242,7 +1242,7 @@ a.menu-active:before {
   margin-bottom: 26px;
 }
 .slider-v3 .swiper-slide .wrap-slider-content .slider-content .slider-text p {
-  color: #d0cfcb;
+  color: #fff;
   text-transform: none;
   letter-spacing: unset;
   font-weight: 300;
@@ -1256,7 +1256,7 @@ a.menu-active:before {
   left: 5%;
   font-size: 800px;
   font-weight: 700;
-  color: #fff;
+  color: #313131;
   transition-duration: 0.5s;
 }
 .slider-v3 .number-slide span {
