@@ -1,18 +1,22 @@
+/*
+ JavaScript by: Johannah Glo Malicdem
+*/
+
 const indicator = document.querySelector('.nav-indicator');
 const items = document.querySelectorAll('.nav-item');
 
-function handleIndicator(el) {
+function handleIndicator(bar) {
   items.forEach(item => {
     item.classList.remove('is-active');
     item.removeAttribute('style');
   });
 
-  indicator.style.width = `${el.offsetWidth}px`;
-  indicator.style.left = `${el.offsetLeft}px`;
-  indicator.style.backgroundColor = el.getAttribute('active-color');
+  indicator.style.width = `${bar.offsetWidth}px`;
+  indicator.style.left = `${bar.offsetLeft}px`;
+  indicator.style.backgroundColor = bar.getAttribute('active-color');
 
-  el.classList.add('is-active');
-  el.style.color = el.getAttribute('active-color');
+  bar.classList.add('is-active');
+  bar.style.color = bar.getAttribute('active-color');
 }
 
 
