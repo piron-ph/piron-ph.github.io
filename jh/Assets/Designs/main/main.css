@@ -1223,6 +1223,28 @@ Johannah Glo Malicdem
        .mobile-navigation .menu .menu-item.current-menu-item a {
          color: #009ad8; }
  
+         .post {
+          padding: 50px 0;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+          .post.single {
+            border-bottom: none; }
+          .post:first-child {
+            padding-top: 0; }
+          .post .entry-title {
+            font-size: 30px;
+            font-size: 2.1428571429em;
+            font-weight: 300;
+            color: white; }
+          .post .featured-image {
+            margin-bottom: 20px; }
+            .post .featured-image img {
+              width: 100%;
+              max-width: 100%;
+              height: auto;
+              border-radius: 5px;
+              display: block; }
+          .post p {
+            margin-bottom: 30px; }
  .hero {
    background-size: cover;
    padding: 70px 0;
