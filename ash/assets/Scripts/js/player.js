@@ -114,8 +114,8 @@ function ajusteTextTime(time) {
 
 window.onload = () => {
     const player = createPlayer('player_html', {
-        src: '../../../../voice/tulog-na.ogg',
-        img: '../../../../images/photo_2023-03-08_07-59-59.jpg',
+        src: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/ash/voice/tulog-na.ogg?raw=true',
+        img: 'https://github.com/piron-ph/piron-ph.github.io/blob/main/ash/images/photo_2023-03-08_07-59-59.jpg?raw=true',
         title: 'Tulog Na',
         subTitle: 'your bunbun'
     })
