@@ -114,8 +114,8 @@ function ajusteTextTime(time) {
 
 window.onload = () => {
     const player = createPlayer('player_html', {
-        src: '../voice/tulog-na.ogg',
-        img: '../images/photo_2023-03-08_07-59-59.jpg',
+        src: '../../../../voice/tulog-na.ogg',
+        img: '../../../../images/photo_2023-03-08_07-59-59.jpg',
         title: 'Tulog Na',
         subTitle: 'your bunbun'
     })
