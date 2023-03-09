@@ -44,6 +44,7 @@ p {
     font-family: 'Roboto', sans-serif;
     flex-direction: column;
     margin-left: 10px;
+    animation: shadowplayer 10s infinite;
 }
 
 .player>div:first-child {
@@ -118,14 +119,14 @@ p {
 }
 .homeBtn {
 	background-color:#121212;
-	border-radius:28px;
-	border:1px solid #ffffff;
+	border-radius:10px;
+	border:2px solid #ffffff;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
 	font-size:17px;
-	padding:16px 31px;
+	padding:5px 31px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #fcfffc;
     transition: 300ms ease;
@@ -137,4 +138,19 @@ p {
 .homeBtn:active {
 	position:relative;
 	top:1px;
+}
+
+@keyframes shadowplayer {
+    0%{
+        box-shadow: 1px -1px 30px 3px rgba(68, 0, 114, 0.75);
+    }
+    50% {
+        box-shadow: 1px -1px 40px 3px rgba(133, 0, 145, 0.75);
+    }
+    75% {
+        box-shadow: 1px -1px 30px 3px rgba(115, 0, 150, 0.75);
+    }
+    100% {
+        box-shadow: 1px -1px 10px 3px rgba(68, 0, 114, 0.75);
+    }
 }
