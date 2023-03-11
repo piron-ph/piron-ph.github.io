@@ -140,6 +140,25 @@ p {
 	top:1px;
 }
 
+.center {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  h1 {
+    margin: 0 auto;
+    color: white;
+  }
+  
+  .letter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+  }
+
 @keyframes shadowplayer {
     0%{
         box-shadow: 1px -1px 30px 3px rgba(68, 0, 114, 0.75);
