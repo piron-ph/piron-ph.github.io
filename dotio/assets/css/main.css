@@ -18,7 +18,8 @@ Xampp-apache: 3.0.8.8
 /* Colors */
 :root {
   --color-default: #222222;
-  --color-primary: #121212;
+  --color-primary: rgba(39, 39, 177, 0.336);
+  --color-header: #361742;
   --color-secondary: #f85a40;
 }
 
@@ -82,7 +83,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: var(--color-primary);
+  background: var(--color-header);
   left: 0;
   right: 0;
   bottom: 0;
@@ -178,7 +179,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color: var(--color-primary);
+  background-color: var(--color-header);
 }
 
 .header.sticked {
@@ -837,7 +838,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: #361742;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -969,7 +970,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: #361742;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1106,7 +1107,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #212121;
+  background: var(--color-primary);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1138,7 +1139,7 @@ section {
 }
 
 .card .icon-box:hover {
-  background: #009786;
+  background: #361742;
 }
 
 .card .icon-box:hover .title a,
