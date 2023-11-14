@@ -211,7 +211,7 @@ Johannah Glo Malicdem
    font-size: 14px;
    font-weight: 300;
    line-height: 1.5;
-   background: #1e202b; }
+   background: #121212; }
  
  h1, h2, h3, h4, h5, h6 {
    font-weight: 700;
@@ -298,7 +298,7 @@ Johannah Glo Malicdem
  
 
  .page-levitate {
-    background: #1E202B;
+    background: #121212;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.53);
     border-radius: 40px;
     padding: 100px 20px;
@@ -1199,52 +1199,7 @@ Johannah Glo Malicdem
          border-color: #009ad8;
          color: #009ad8; }
  
- .mobile-navigation {
-   padding: 30px 0 0;
-   clear: both;
-   display: none; }
-   @media screen and (min-width: 991px) {
-     .mobile-navigation {
-       display: none !important; } }
-   .mobile-navigation .menu {
-     background: #262936;
-     list-style: none;
-     text-align: center;
-     border-radius: 10px;
-     overflow: hidden; }
-     .mobile-navigation .menu a {
-       padding: 20px;
-       display: block;
-       color: white; }
-     .mobile-navigation .menu .menu-item {
-       border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-       .mobile-navigation .menu .menu-item:last-child {
-         border-bottom: none; }
-       .mobile-navigation .menu .menu-item.current-menu-item a {
-         color: #009ad8; }
- 
-         .post {
-          padding: 50px 0;
-          border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-          .post.single {
-            border-bottom: none; }
-          .post:first-child {
-            padding-top: 0; }
-          .post .entry-title {
-            font-size: 30px;
-            font-size: 2.1428571429em;
-            font-weight: 300;
-            color: white; }
-          .post .featured-image {
-            margin-bottom: 20px; }
-            .post .featured-image img {
-              width: 100%;
-              max-width: 100%;
-              height: auto;
-              border-radius: 5px;
-              display: block; }
-          .post p {
-            margin-bottom: 30px; }
+
  .hero {
    background-size: cover;
    padding: 70px 0;
