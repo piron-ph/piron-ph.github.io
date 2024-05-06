@@ -11,6 +11,10 @@
     }
   }
   
+  .bg-home img {
+    width: 100px;
+  }
+
   .hero h2 {
     font-size: 48px;
     font-weight: 700;
