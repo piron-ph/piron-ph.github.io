@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOBO SI VAL</title>
+</head>
+<body>
+    <style>
+       :root {
+  --gap: 4rem;
+  --bg-dark: #121212;
+}
+
+body {
+  background: var(--bg-dark);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.marquee {
+  overflow: hidden;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  display: flex;
+  gap: var(--gap);
+  transform: rotate(-4deg);
+}
+
+ul {
+  list-style: none;
+  flex-shrink: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap);
+  -webkit-animation: marquee 8s linear infinite;
+          animation: marquee 8s linear infinite;
+}
+
+.text {
+  background: linear-gradient(to right, #a2a2a2, #ffffff, #212121);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 400;
+  font-size: 25ch;
+}
+
+@-webkit-keyframes marquee {
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+@keyframes marquee {
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+    </style>
+    <div class="container">
+        <div class="marquee">
+          <ul>
+            <li><span class="text">BOBO VALL</span></li>
+          </ul>
+          <ul aria-hidden="true">
+            <li>
+              <span class="text">BOBO VALL</span>
+            </li>
+          </ul>
+      
+        </div>
+      </div>
+</body>
+</html>
